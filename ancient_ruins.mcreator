@@ -206,6 +206,65 @@
         ]
       },
       "path": "~/gags"
+    },
+    {
+      "name": "EyePriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eye_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/procedures/EyePriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Eye",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eye",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/item/EyeItem.java",
+          "src/main/resources/assets/ancient_ruins/models/item/eye.json"
+        ]
+      }
+    },
+    {
+      "name": "Lootruins",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lootruins",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/lootruins.json"
+        ]
+      }
+    },
+    {
+      "name": "RuinFirst",
+      "type": "structure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruin_first",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/forge/biome_modifier/ruin_first_biome_modifier.json",
+          "src/main/java/net/mcreator/ancientruins/world/features/RuinFirstFeature.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -224,6 +283,7 @@
       "item.ancient_ruins.literium_ore": "Рудный Литериум",
       "item.ancient_ruins.morgen": " BLACK RUSSIA BOY",
       "block.ancient_ruins.literuim_ore": "Блок Руды Литериум",
+      "item.ancient_ruins.eye": "Eye",
       "gui.ancient_ruins.anvilgui.button_craft": "Крафт",
       "subtitles.gags": "",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
@@ -236,6 +296,7 @@
       "item.ancient_ruins.literium_ore": "Literium Ore",
       "item.ancient_ruins.morgen": " BLACK RUSSIA BOY",
       "block.ancient_ruins.literuim_ore": "Literuim Ore",
+      "item.ancient_ruins.eye": "Eye",
       "gui.ancient_ruins.anvilgui.button_craft": "Craft",
       "subtitles.gags": "",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",

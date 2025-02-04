@@ -12,10 +12,12 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraft.world.level.levelgen.feature.Feature;
 
 import net.mcreator.ancientruins.world.features.ores.LiteruimOreFeature;
+import net.mcreator.ancientruins.world.features.RuinFirstFeature;
 import net.mcreator.ancientruins.AncientRuinsMod;
 
 @Mod.EventBusSubscriber
 public class AncientRuinsModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, AncientRuinsMod.MODID);
 	public static final RegistryObject<Feature<?>> LITERUIM_ORE = REGISTRY.register("literuim_ore", LiteruimOreFeature::feature);
+	public static final RegistryObject<Feature<?>> RUIN_FIRST = REGISTRY.register("ruin_first", RuinFirstFeature::feature);
 }
