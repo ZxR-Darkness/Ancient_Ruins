@@ -1,0 +1,10 @@
+{
+  "gags": {
+    "sounds": [
+      {
+        "name": "ancient_ruins:gags",
+        "stream": true
+      }
+    ]
+  }
+}

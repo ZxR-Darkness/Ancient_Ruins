@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": " BLACK RUSSIA BOY",
+    "texture": "plastinka",
+    "description": "morgenstern black man",
+    "creativeTab": {
+      "value": "CUSTOM:DrievniieRuiny"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:gags"
+    },
+    "lengthInTicks": 620,
+    "analogOutput": 0
+  }
+}

@@ -180,27 +180,68 @@
           "src/main/resources/assets/ancient_ruins/models/item/steelitem.json"
         ]
       }
+    },
+    {
+      "name": "Cheese",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/gags"
+    },
+    {
+      "name": "Morgen",
+      "type": "musicdisc",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morgen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancient_ruins/models/item/morgen.json",
+          "src/main/java/net/mcreator/ancientruins/item/MorgenItem.java"
+        ]
+      },
+      "path": "~/gags"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "gags",
+      "files": [
+        "gags"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "ru_ru": {
       "item.ancient_ruins.literium_ore": "Рудный Литериум",
+      "item.ancient_ruins.morgen": " BLACK RUSSIA BOY",
       "block.ancient_ruins.literuim_ore": "Блок Руды Литериум",
       "gui.ancient_ruins.anvilgui.button_craft": "Крафт",
+      "subtitles.gags": "",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
       "block.ancient_ruins.blockes": "Центральное Ядро",
       "item.ancient_ruins.steelitem": "Стальной Слиток",
+      "item.ancient_ruins.morgen.desc": "morgenstern black man",
       "block.ancient_ruins.anvil": "Наковальня"
     },
     "en_us": {
       "item.ancient_ruins.literium_ore": "Literium Ore",
+      "item.ancient_ruins.morgen": " BLACK RUSSIA BOY",
       "block.ancient_ruins.literuim_ore": "Literuim Ore",
       "gui.ancient_ruins.anvilgui.button_craft": "Craft",
+      "subtitles.gags": "",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
       "block.ancient_ruins.blockes": "Core",
       "item.ancient_ruins.steelitem": "Steel ingot",
+      "item.ancient_ruins.morgen.desc": "morgenstern black man",
       "block.ancient_ruins.anvil": "Anvil"
     }
   },
@@ -209,6 +250,10 @@
     "children": [
       {
         "name": "Gui_folder",
+        "children": []
+      },
+      {
+        "name": "gags",
         "children": []
       }
     ]

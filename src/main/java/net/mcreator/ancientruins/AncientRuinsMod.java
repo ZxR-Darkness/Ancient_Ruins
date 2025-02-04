@@ -30,6 +30,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.ancientruins.init.AncientRuinsModTabs;
+import net.mcreator.ancientruins.init.AncientRuinsModSounds;
+import net.mcreator.ancientruins.init.AncientRuinsModPaintings;
 import net.mcreator.ancientruins.init.AncientRuinsModMenus;
 import net.mcreator.ancientruins.init.AncientRuinsModItems;
 import net.mcreator.ancientruins.init.AncientRuinsModFeatures;
@@ -53,11 +55,12 @@ public class AncientRuinsMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		AncientRuinsModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		AncientRuinsModSounds.REGISTRY.register(bus);
 		AncientRuinsModBlocks.REGISTRY.register(bus);
 		AncientRuinsModItems.REGISTRY.register(bus);
 
 		AncientRuinsModFeatures.REGISTRY.register(bus);
+		AncientRuinsModPaintings.REGISTRY.register(bus);
 
 		AncientRuinsModMenus.REGISTRY.register(bus);
 

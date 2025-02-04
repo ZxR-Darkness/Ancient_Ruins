@@ -37,9 +37,9 @@ public class LiteruimOreFeature extends OreFeature {
 				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), AncientRuinsModBlocks.LITERUIM_ORE.get().defaultBlockState()),
 						OreConfiguration.target(new BlockStateMatchTest(Blocks.GRANITE.defaultBlockState()), AncientRuinsModBlocks.LITERUIM_ORE.get().defaultBlockState()),
 						OreConfiguration.target(new BlockStateMatchTest(Blocks.DIORITE.defaultBlockState()), AncientRuinsModBlocks.LITERUIM_ORE.get().defaultBlockState()),
-						OreConfiguration.target(new BlockStateMatchTest(Blocks.ANDESITE.defaultBlockState()), AncientRuinsModBlocks.LITERUIM_ORE.get().defaultBlockState())), 16));
+						OreConfiguration.target(new BlockStateMatchTest(Blocks.ANDESITE.defaultBlockState()), AncientRuinsModBlocks.LITERUIM_ORE.get().defaultBlockState())), 8));
 		PLACED_FEATURE = PlacementUtils.register("ancient_ruins:literuim_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(10), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(60)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(1), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(56)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
