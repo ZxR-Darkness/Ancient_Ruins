@@ -1,0 +1,226 @@
+{
+  "mod_elements": [
+    {
+      "name": "Blockes",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/block/BlockesBlock.java",
+          "src/main/resources/assets/ancient_ruins/models/item/blockes.json",
+          "src/main/resources/assets/ancient_ruins/blockstates/blockes.json",
+          "src/main/resources/assets/ancient_ruins/models/block/blockes.json"
+        ]
+      }
+    },
+    {
+      "name": "Anvil",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anvil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/block/AnvilBlock.java",
+          "src/main/resources/assets/ancient_ruins/blockstates/anvil.json",
+          "src/main/resources/assets/ancient_ruins/models/item/anvil.json",
+          "src/main/resources/assets/ancient_ruins/models/block/anvil.json"
+        ]
+      }
+    },
+    {
+      "name": "DrievniieRuiny",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drievniie_ruiny",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "LiteruimOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "literuim_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/block/LiteruimOreBlock.java",
+          "src/main/java/net/mcreator/ancientruins/world/features/ores/LiteruimOreFeature.java",
+          "src/main/resources/assets/ancient_ruins/models/block/literuim_ore.json",
+          "src/main/resources/assets/ancient_ruins/models/item/literuim_ore.json",
+          "src/main/resources/data/ancient_ruins/forge/biome_modifier/literuim_ore_biome_modifier.json",
+          "src/main/resources/assets/ancient_ruins/blockstates/literuim_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Anvilgui",
+      "type": "gui",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anvilgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/network/AnvilguiButtonMessage.java",
+          "src/main/java/net/mcreator/ancientruins/world/inventory/AnvilguiMenu.java",
+          "src/main/java/net/mcreator/ancientruins/client/gui/AnvilguiScreen.java"
+        ]
+      },
+      "path": "~/Gui_folder"
+    },
+    {
+      "name": "ScriptforAnvil",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scriptfor_anvil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/procedures/ScriptforAnvilProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui_folder"
+    },
+    {
+      "name": "OpenGuiAnvil",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_gui_anvil",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/procedures/OpenGuiAnvilProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui_folder"
+    },
+    {
+      "name": "AnvilNaBlokieNazhataPravaiaKnopkaMyshi",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anvil_na_blokie_nazhata_pravaia_knopka_myshi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/procedures/AnvilNaBlokieNazhataPravaiaKnopkaMyshiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LiteriumOre",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "literium_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/item/LiteriumOreItem.java",
+          "src/main/resources/assets/ancient_ruins/models/item/literium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Steelitem",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelitem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/item/SteelitemItem.java",
+          "src/main/resources/assets/ancient_ruins/models/item/steelitem.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.ancient_ruins.literium_ore": "Literium Ore",
+      "block.ancient_ruins.literuim_ore": "Literuim Ore",
+      "gui.ancient_ruins.anvilgui.button_craft": "Craft",
+      "itemGroup.tabdrievniie_ruiny": "Древние Руины",
+      "block.ancient_ruins.blockes": "Ядро",
+      "item.ancient_ruins.steelitem": "Steel ingot",
+      "block.ancient_ruins.anvil": "Anvil"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Gui_folder",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "ancient_ruins",
+    "modName": "ancient ruins",
+    "version": "0.0.2-dev",
+    "author": "OS TEAM",
+    "websiteURL": "https://github.com/ZxR-Darki",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Thanks for Mcreator)",
+    "modElementsPackage": "net.mcreator.ancientruins",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

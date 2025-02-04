@@ -1,0 +1,11 @@
+{
+  "parent": "ancient_ruins:custom/blockes",
+  "textures": {
+    "all": "ancient_ruins:blocks/texture",
+    "particle": "ancient_ruins:blocks/texture",
+    "0": "ancient_ruins:blocks/texture",
+    "1": "ancient_ruins:blocks/texture2",
+    "2": "ancient_ruins:blocks/texture3"
+  },
+  "render_type": "solid"
+}

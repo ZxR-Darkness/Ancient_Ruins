@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="ancient_ruins"
+version="0.0.2"
+displayName="ancient ruins"
+credits="Thanks for Mcreator)"
+displayURL="https://github.com/ZxR-Darki"
+authors="OS TEAM"
+
+[[dependencies.ancient_ruins]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

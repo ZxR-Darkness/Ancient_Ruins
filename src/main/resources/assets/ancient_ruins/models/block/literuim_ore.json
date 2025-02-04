@@ -1,0 +1,9 @@
+{
+  "parent": "ancient_ruins:custom/literium_ore",
+  "textures": {
+    "all": "ancient_ruins:blocks/literium_ore",
+    "particle": "ancient_ruins:blocks/literium_ore",
+    "0": "ancient_ruins:blocks/literium_ore"
+  },
+  "render_type": "solid"
+}

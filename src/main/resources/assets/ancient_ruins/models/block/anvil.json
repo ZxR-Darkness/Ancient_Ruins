@@ -1,0 +1,11 @@
+{
+  "parent": "ancient_ruins:custom/anvil",
+  "textures": {
+    "all": "ancient_ruins:blocks/anvil-one",
+    "particle": "ancient_ruins:blocks/anvil-one",
+    "0": "ancient_ruins:blocks/anvil-one",
+    "1": "ancient_ruins:blocks/anvil-two",
+    "2": "ancient_ruins:blocks/anvil-three"
+  },
+  "render_type": "solid"
+}

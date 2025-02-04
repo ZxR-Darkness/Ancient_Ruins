@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "anvil-one",
+        "1": "anvil-two",
+        "2": "anvil-three"
+      },
+      "name": "default"
+    }
+  }
+}
