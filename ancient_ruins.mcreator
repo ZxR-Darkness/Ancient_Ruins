@@ -185,12 +185,21 @@
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
+    "ru_ru": {
+      "item.ancient_ruins.literium_ore": "Рудный Литериум",
+      "block.ancient_ruins.literuim_ore": "Блок Руды Литериум",
+      "gui.ancient_ruins.anvilgui.button_craft": "Крафт",
+      "itemGroup.tabdrievniie_ruiny": "Древние Руины",
+      "block.ancient_ruins.blockes": "Центральное Ядро",
+      "item.ancient_ruins.steelitem": "Стальной Слиток",
+      "block.ancient_ruins.anvil": "Наковальня"
+    },
     "en_us": {
       "item.ancient_ruins.literium_ore": "Literium Ore",
       "block.ancient_ruins.literuim_ore": "Literuim Ore",
       "gui.ancient_ruins.anvilgui.button_craft": "Craft",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
-      "block.ancient_ruins.blockes": "Ядро",
+      "block.ancient_ruins.blockes": "Core",
       "item.ancient_ruins.steelitem": "Steel ingot",
       "block.ancient_ruins.anvil": "Anvil"
     }
