@@ -298,7 +298,7 @@
     {
       "name": "CraftLiteriumIngot",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_literium_ingot",
