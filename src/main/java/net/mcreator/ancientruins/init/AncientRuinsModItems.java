@@ -17,6 +17,7 @@ import net.mcreator.ancientruins.item.SteelitemItem;
 import net.mcreator.ancientruins.item.MorgenItem;
 import net.mcreator.ancientruins.item.LiteriumOreItem;
 import net.mcreator.ancientruins.item.EyeItem;
+import net.mcreator.ancientruins.item.AncientRemainsItem;
 import net.mcreator.ancientruins.AncientRuinsMod;
 
 public class AncientRuinsModItems {
@@ -28,6 +29,7 @@ public class AncientRuinsModItems {
 	public static final RegistryObject<Item> STEELITEM = REGISTRY.register("steelitem", () -> new SteelitemItem());
 	public static final RegistryObject<Item> MORGEN = REGISTRY.register("morgen", () -> new MorgenItem());
 	public static final RegistryObject<Item> EYE = REGISTRY.register("eye", () -> new EyeItem());
+	public static final RegistryObject<Item> ANCIENT_REMAINS = REGISTRY.register("ancient_remains", () -> new AncientRemainsItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

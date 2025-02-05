@@ -1,13 +1,14 @@
 {
-  "item.ancient_ruins.literium_ore": "Рудный Литериум",
-  "item.ancient_ruins.morgen": " BLACK RUSSIA BOY",
-  "block.ancient_ruins.literuim_ore": "Блок Руды Литериум",
-  "item.ancient_ruins.eye": "Eye",
-  "gui.ancient_ruins.anvilgui.button_craft": "Крафт",
   "subtitles.gags": "",
   "itemGroup.tabdrievniie_ruiny": "Древние Руины",
   "block.ancient_ruins.blockes": "Центральное Ядро",
+  "item.ancient_ruins.morgen.desc": "morgenstern",
+  "item.ancient_ruins.literium_ore": "Рудный Литериум",
+  "item.ancient_ruins.morgen": "NIGGERS",
+  "block.ancient_ruins.literuim_ore": "Блок Руды Литериум",
+  "item.ancient_ruins.eye": "Глаз Существа",
+  "gui.ancient_ruins.anvilgui.button_craft": "Крафт",
+  "item.ancient_ruins.ancient_remains": "Древние Останки",
   "item.ancient_ruins.steelitem": "Стальной Слиток",
-  "item.ancient_ruins.morgen.desc": "morgenstern black man",
   "block.ancient_ruins.anvil": "Наковальня"
 }

@@ -265,6 +265,20 @@
           "src/main/java/net/mcreator/ancientruins/world/features/RuinFirstFeature.java"
         ]
       }
+    },
+    {
+      "name": "AncientRemains",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_remains",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancient_ruins/models/item/ancient_remains.json",
+          "src/main/java/net/mcreator/ancientruins/item/AncientRemainsItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -280,29 +294,31 @@
   ],
   "language_map": {
     "ru_ru": {
-      "item.ancient_ruins.literium_ore": "Рудный Литериум",
-      "item.ancient_ruins.morgen": " BLACK RUSSIA BOY",
-      "block.ancient_ruins.literuim_ore": "Блок Руды Литериум",
-      "item.ancient_ruins.eye": "Eye",
-      "gui.ancient_ruins.anvilgui.button_craft": "Крафт",
       "subtitles.gags": "",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
       "block.ancient_ruins.blockes": "Центральное Ядро",
+      "item.ancient_ruins.morgen.desc": "morgenstern",
+      "item.ancient_ruins.literium_ore": "Рудный Литериум",
+      "item.ancient_ruins.morgen": "NIGGERS",
+      "block.ancient_ruins.literuim_ore": "Блок Руды Литериум",
+      "item.ancient_ruins.eye": "Глаз Существа",
+      "gui.ancient_ruins.anvilgui.button_craft": "Крафт",
+      "item.ancient_ruins.ancient_remains": "Древние Останки",
       "item.ancient_ruins.steelitem": "Стальной Слиток",
-      "item.ancient_ruins.morgen.desc": "morgenstern black man",
       "block.ancient_ruins.anvil": "Наковальня"
     },
     "en_us": {
+      "subtitles.gags": "",
+      "itemGroup.tabdrievniie_ruiny": "Древние Руины",
+      "block.ancient_ruins.blockes": "Core",
+      "item.ancient_ruins.morgen.desc": "morgenstern black man",
       "item.ancient_ruins.literium_ore": "Literium Ore",
       "item.ancient_ruins.morgen": " BLACK RUSSIA BOY",
       "block.ancient_ruins.literuim_ore": "Literuim Ore",
       "item.ancient_ruins.eye": "Eye",
       "gui.ancient_ruins.anvilgui.button_craft": "Craft",
-      "subtitles.gags": "",
-      "itemGroup.tabdrievniie_ruiny": "Древние Руины",
-      "block.ancient_ruins.blockes": "Core",
+      "item.ancient_ruins.ancient_remains": "Ancient Remains",
       "item.ancient_ruins.steelitem": "Steel ingot",
-      "item.ancient_ruins.morgen.desc": "morgenstern black man",
       "block.ancient_ruins.anvil": "Anvil"
     }
   },
