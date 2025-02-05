@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "ancient_ruins:literiumingot"
+    },
+    "1": {
+      "item": "ancient_ruins:literiumingot"
+    },
+    "2": {
+      "item": "ancient_ruins:literiumingot"
+    },
+    "3": {
+      "item": "ancient_ruins:literiumingot"
+    },
+    "5": {
+      "item": "ancient_ruins:literiumingot"
+    },
+    "6": {
+      "item": "ancient_ruins:literiumingot"
+    },
+    "8": {
+      "item": "ancient_ruins:literiumingot"
+    }
+  },
+  "result": {
+    "item": "ancient_ruins:literium_armor_leggings",
+    "count": 1
+  }
+}

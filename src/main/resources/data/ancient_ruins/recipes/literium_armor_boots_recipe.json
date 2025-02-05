@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ancient_ruins:literiumingot"
+    },
+    "2": {
+      "item": "ancient_ruins:literiumingot"
+    },
+    "3": {
+      "item": "ancient_ruins:literiumingot"
+    },
+    "5": {
+      "item": "ancient_ruins:literiumingot"
+    }
+  },
+  "result": {
+    "item": "ancient_ruins:literium_armor_boots",
+    "count": 1
+  }
+}

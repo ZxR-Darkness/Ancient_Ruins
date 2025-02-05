@@ -298,6 +298,7 @@
     {
       "name": "CraftLiteriumIngot",
       "type": "recipe",
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_literium_ingot",
@@ -306,6 +307,225 @@
           "src/main/resources/data/ancient_ruins/recipes/craft_literium_ingot.json"
         ]
       }
+    },
+    {
+      "name": "LiteriumPickaxe",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "literium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/item/LiteriumPickaxeItem.java",
+          "src/main/resources/assets/ancient_ruins/models/item/literium_pickaxe.json"
+        ]
+      },
+      "path": "~/Instruments"
+    },
+    {
+      "name": "LiteriumAxe",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "literium_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancient_ruins/models/item/literium_axe.json",
+          "src/main/java/net/mcreator/ancientruins/item/LiteriumAxeItem.java"
+        ]
+      },
+      "path": "~/Instruments"
+    },
+    {
+      "name": "LiteriumSword",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "literium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancient_ruins/models/item/literium_sword.json",
+          "src/main/java/net/mcreator/ancientruins/item/LiteriumSwordItem.java"
+        ]
+      },
+      "path": "~/Instruments"
+    },
+    {
+      "name": "LiteriumShovel",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "literium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/item/LiteriumShovelItem.java",
+          "src/main/resources/assets/ancient_ruins/models/item/literium_shovel.json"
+        ]
+      },
+      "path": "~/Instruments"
+    },
+    {
+      "name": "LiteriumHoe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "literium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancient_ruins/models/item/literium_hoe.json",
+          "src/main/java/net/mcreator/ancientruins/item/LiteriumHoeItem.java"
+        ]
+      },
+      "path": "~/Instruments"
+    },
+    {
+      "name": "LiteriumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "literium_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/recipes/literium_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Instruments"
+    },
+    {
+      "name": "LiteriumAxeRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "literium_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/recipes/literium_axe_recipe.json"
+        ]
+      },
+      "path": "~/Instruments"
+    },
+    {
+      "name": "LiteriumSwordRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "literium_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/recipes/literium_sword_recipe.json"
+        ]
+      },
+      "path": "~/Instruments"
+    },
+    {
+      "name": "LiteriumShovelRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "literium_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/recipes/literium_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Instruments"
+    },
+    {
+      "name": "LiteriumHoeRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "literium_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/recipes/literium_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Instruments"
+    },
+    {
+      "name": "LiteriumArmor",
+      "type": "armor",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "literium_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/item/LiteriumArmorItem.java",
+          "src/main/resources/assets/ancient_ruins/models/item/literium_armor_chestplate.json",
+          "src/main/resources/assets/ancient_ruins/models/item/literium_armor_helmet.json",
+          "src/main/resources/assets/ancient_ruins/models/item/literium_armor_leggings.json",
+          "src/main/resources/assets/ancient_ruins/models/item/literium_armor_boots.json"
+        ]
+      },
+      "path": "~/Instruments"
+    },
+    {
+      "name": "LiteriumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "literium_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/recipes/literium_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Instruments"
+    },
+    {
+      "name": "LiteriumArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "literium_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/recipes/literium_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Instruments"
+    },
+    {
+      "name": "LiteriumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "literium_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/recipes/literium_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Instruments"
+    },
+    {
+      "name": "LiteriumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "literium_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/recipes/literium_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Instruments"
     }
   ],
   "variable_elements": [],
@@ -321,33 +541,51 @@
   ],
   "language_map": {
     "ru_ru": {
+      "item.ancient_ruins.literium_axe": "Топор Из Литериума",
       "subtitles.gags": "",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
+      "item.ancient_ruins.literium_armor_leggings": "Поножи Из Литериума",
       "block.ancient_ruins.blockes": "Центральное Ядро",
+      "item.ancient_ruins.literium_armor_helmet": "Шлем Из Литериума",
       "item.ancient_ruins.morgen.desc": "morgenstern",
       "item.ancient_ruins.literium_ore": "Рудный Литериум",
       "item.ancient_ruins.morgen": "NIGGERS",
+      "item.ancient_ruins.literium_armor_chestplate": "Нагрудник Из Литериума",
       "block.ancient_ruins.literuim_ore": "Блок Руды Литериум",
+      "item.ancient_ruins.literium_hoe": "Дерьмо",
+      "item.ancient_ruins.literium_armor_boots": "Ботинки Из Литериума",
       "item.ancient_ruins.eye": "Глаз Существа",
+      "item.ancient_ruins.literium_pickaxe": "Кирка Из Литериума",
       "gui.ancient_ruins.anvilgui.button_craft": "Крафт",
-      "item.ancient_ruins.literiumingot": "Literiumingot",
+      "item.ancient_ruins.literiumingot": "Слиок Литериума",
+      "item.ancient_ruins.literium_sword": "литериумный меч",
       "item.ancient_ruins.ancient_remains": "Древние Останки",
       "item.ancient_ruins.steelitem": "Стальной Слиток",
+      "item.ancient_ruins.literium_shovel": "литериумная лопота",
       "block.ancient_ruins.anvil": "Наковальня"
     },
     "en_us": {
+      "item.ancient_ruins.literium_axe": "Literium Axe",
       "subtitles.gags": "",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
+      "item.ancient_ruins.literium_armor_leggings": "Literium Leggings",
       "block.ancient_ruins.blockes": "Core",
+      "item.ancient_ruins.literium_armor_helmet": "Literium Helmet",
       "item.ancient_ruins.morgen.desc": "morgenstern black man",
       "item.ancient_ruins.literium_ore": "Literium Ore",
       "item.ancient_ruins.morgen": " BLACK RUSSIA BOY",
+      "item.ancient_ruins.literium_armor_chestplate": "Literium Chestplate",
       "block.ancient_ruins.literuim_ore": "Literuim Ore",
+      "item.ancient_ruins.literium_hoe": "Literium Hoe",
+      "item.ancient_ruins.literium_armor_boots": "Literium Boots",
       "item.ancient_ruins.eye": "Eye",
+      "item.ancient_ruins.literium_pickaxe": "Literium Pickaxe",
       "gui.ancient_ruins.anvilgui.button_craft": "Craft",
       "item.ancient_ruins.literiumingot": "Literiumingot",
+      "item.ancient_ruins.literium_sword": "Literium Sword",
       "item.ancient_ruins.ancient_remains": "Ancient Remains",
       "item.ancient_ruins.steelitem": "Steel ingot",
+      "item.ancient_ruins.literium_shovel": "Literium Shovel",
       "block.ancient_ruins.anvil": "Anvil"
     }
   },
@@ -361,13 +599,17 @@
       {
         "name": "gags",
         "children": []
+      },
+      {
+        "name": "Instruments",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "ancient_ruins",
     "modName": "ancient ruins",
-    "version": "0.0.8-dev",
+    "version": "0.0.9-dev",
     "description": "добавляет дрвение руины, мобов, предметы, структуры.",
     "author": "OS TEAM",
     "websiteURL": "https://github.com/ZxR-Darki",

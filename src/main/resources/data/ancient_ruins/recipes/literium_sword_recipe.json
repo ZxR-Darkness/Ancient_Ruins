@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "ancient_ruins:literiumingot"
+    },
+    "1": {
+      "item": "ancient_ruins:literiumingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ancient_ruins:literium_sword",
+    "count": 1
+  }
+}

@@ -16,7 +16,13 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.ancientruins.item.SteelitemItem;
 import net.mcreator.ancientruins.item.MorgenItem;
 import net.mcreator.ancientruins.item.LiteriumingotItem;
+import net.mcreator.ancientruins.item.LiteriumSwordItem;
+import net.mcreator.ancientruins.item.LiteriumShovelItem;
+import net.mcreator.ancientruins.item.LiteriumPickaxeItem;
 import net.mcreator.ancientruins.item.LiteriumOreItem;
+import net.mcreator.ancientruins.item.LiteriumHoeItem;
+import net.mcreator.ancientruins.item.LiteriumAxeItem;
+import net.mcreator.ancientruins.item.LiteriumArmorItem;
 import net.mcreator.ancientruins.item.EyeItem;
 import net.mcreator.ancientruins.item.AncientRemainsItem;
 import net.mcreator.ancientruins.AncientRuinsMod;
@@ -32,6 +38,15 @@ public class AncientRuinsModItems {
 	public static final RegistryObject<Item> EYE = REGISTRY.register("eye", () -> new EyeItem());
 	public static final RegistryObject<Item> ANCIENT_REMAINS = REGISTRY.register("ancient_remains", () -> new AncientRemainsItem());
 	public static final RegistryObject<Item> LITERIUMINGOT = REGISTRY.register("literiumingot", () -> new LiteriumingotItem());
+	public static final RegistryObject<Item> LITERIUM_AXE = REGISTRY.register("literium_axe", () -> new LiteriumAxeItem());
+	public static final RegistryObject<Item> LITERIUM_PICKAXE = REGISTRY.register("literium_pickaxe", () -> new LiteriumPickaxeItem());
+	public static final RegistryObject<Item> LITERIUM_SWORD = REGISTRY.register("literium_sword", () -> new LiteriumSwordItem());
+	public static final RegistryObject<Item> LITERIUM_SHOVEL = REGISTRY.register("literium_shovel", () -> new LiteriumShovelItem());
+	public static final RegistryObject<Item> LITERIUM_HOE = REGISTRY.register("literium_hoe", () -> new LiteriumHoeItem());
+	public static final RegistryObject<Item> LITERIUM_ARMOR_HELMET = REGISTRY.register("literium_armor_helmet", () -> new LiteriumArmorItem.Helmet());
+	public static final RegistryObject<Item> LITERIUM_ARMOR_CHESTPLATE = REGISTRY.register("literium_armor_chestplate", () -> new LiteriumArmorItem.Chestplate());
+	public static final RegistryObject<Item> LITERIUM_ARMOR_LEGGINGS = REGISTRY.register("literium_armor_leggings", () -> new LiteriumArmorItem.Leggings());
+	public static final RegistryObject<Item> LITERIUM_ARMOR_BOOTS = REGISTRY.register("literium_armor_boots", () -> new LiteriumArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
