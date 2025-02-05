@@ -4,8 +4,8 @@
   "definition": {
     "structure": "destroy_element_onee",
     "randomlyRotateStructure": false,
-    "surfaceDetectionType": "First block",
-    "spawnProbability": 5000,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 4000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
