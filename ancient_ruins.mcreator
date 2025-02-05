@@ -280,6 +280,32 @@
           "src/main/java/net/mcreator/ancientruins/item/AncientRemainsItem.java"
         ]
       }
+    },
+    {
+      "name": "LiteriumIngot",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "literium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancient_ruins/models/item/literium_ingot.json",
+          "src/main/java/net/mcreator/ancientruins/item/LiteriumIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Literiumingot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "literiumingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/recipes/literiumingot.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -295,6 +321,7 @@
   ],
   "language_map": {
     "ru_ru": {
+      "item.ancient_ruins.literium_ingot": "Literium Ingot",
       "subtitles.gags": "",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
       "block.ancient_ruins.blockes": "Центральное Ядро",
@@ -309,6 +336,7 @@
       "block.ancient_ruins.anvil": "Наковальня"
     },
     "en_us": {
+      "item.ancient_ruins.literium_ingot": "Literium Ingot",
       "subtitles.gags": "",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
       "block.ancient_ruins.blockes": "Core",
