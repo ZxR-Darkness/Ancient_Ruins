@@ -10,6 +10,6 @@ public class EyePriShchielchkiePKMProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.HUNGER, 60, 4, false, false));
+			_entity.addEffect(new MobEffectInstance(MobEffects.HUNGER, 160, 4, false, false));
 	}
 }
