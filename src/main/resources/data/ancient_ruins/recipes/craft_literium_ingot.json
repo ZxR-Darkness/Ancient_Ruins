@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "ancient_ruins:steelitem"
+  },
+  "addition": {
+    "item": "ancient_ruins:literium_ore"
+  },
+  "result": {
+    "item": "ancient_ruins:literiumingot"
+  }
+}

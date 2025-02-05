@@ -11,15 +11,15 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "smithingInputStack": {
-      "value": "CUSTOM:LiteriumOre"
-    },
-    "smithingInputAdditionStack": {
       "value": "CUSTOM:Steelitem"
     },
-    "smithingReturnStack": {
-      "value": "CUSTOM:LiteriumIngot"
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:LiteriumOre"
     },
-    "name": "literiumingot",
+    "smithingReturnStack": {
+      "value": "CUSTOM:Literiumingot"
+    },
+    "name": "craft_literium_ingot",
     "namespace": "mod"
   }
 }

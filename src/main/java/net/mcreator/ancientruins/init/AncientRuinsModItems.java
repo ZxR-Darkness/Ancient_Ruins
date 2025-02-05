@@ -15,8 +15,8 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.ancientruins.item.SteelitemItem;
 import net.mcreator.ancientruins.item.MorgenItem;
+import net.mcreator.ancientruins.item.LiteriumingotItem;
 import net.mcreator.ancientruins.item.LiteriumOreItem;
-import net.mcreator.ancientruins.item.LiteriumIngotItem;
 import net.mcreator.ancientruins.item.EyeItem;
 import net.mcreator.ancientruins.item.AncientRemainsItem;
 import net.mcreator.ancientruins.AncientRuinsMod;
@@ -31,7 +31,7 @@ public class AncientRuinsModItems {
 	public static final RegistryObject<Item> MORGEN = REGISTRY.register("morgen", () -> new MorgenItem());
 	public static final RegistryObject<Item> EYE = REGISTRY.register("eye", () -> new EyeItem());
 	public static final RegistryObject<Item> ANCIENT_REMAINS = REGISTRY.register("ancient_remains", () -> new AncientRemainsItem());
-	public static final RegistryObject<Item> LITERIUM_INGOT = REGISTRY.register("literium_ingot", () -> new LiteriumIngotItem());
+	public static final RegistryObject<Item> LITERIUMINGOT = REGISTRY.register("literiumingot", () -> new LiteriumingotItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

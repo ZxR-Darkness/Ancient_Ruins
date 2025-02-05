@@ -1,5 +1,4 @@
 {
-  "item.ancient_ruins.literium_ingot": "Literium Ingot",
   "subtitles.gags": "",
   "itemGroup.tabdrievniie_ruiny": "Древние Руины",
   "block.ancient_ruins.blockes": "Core",
@@ -9,6 +8,7 @@
   "block.ancient_ruins.literuim_ore": "Literuim Ore",
   "item.ancient_ruins.eye": "Eye",
   "gui.ancient_ruins.anvilgui.button_craft": "Craft",
+  "item.ancient_ruins.literiumingot": "Literiumingot",
   "item.ancient_ruins.ancient_remains": "Ancient Remains",
   "item.ancient_ruins.steelitem": "Steel ingot",
   "block.ancient_ruins.anvil": "Anvil"
