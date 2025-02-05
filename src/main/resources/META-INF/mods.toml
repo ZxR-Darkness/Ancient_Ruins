@@ -9,6 +9,7 @@ displayName="ancient ruins"
 credits="Thanks for Mcreator)"
 displayURL="https://github.com/ZxR-Darki"
 authors="OS TEAM"
+description="добавляет дрвение руины, мобов, предметы, структуры."
 
 [[dependencies.ancient_ruins]]
     modId="minecraft"

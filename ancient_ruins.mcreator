@@ -339,6 +339,7 @@
     "modid": "ancient_ruins",
     "modName": "ancient ruins",
     "version": "0.0.8-dev",
+    "description": "добавляет дрвение руины, мобов, предметы, структуры.",
     "author": "OS TEAM",
     "websiteURL": "https://github.com/ZxR-Darki",
     "license": "Academic Free License v3.0",
