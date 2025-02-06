@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.ancientruins.item.TestSwordItem;
 import net.mcreator.ancientruins.item.SteelitemItem;
 import net.mcreator.ancientruins.item.MorgenItem;
 import net.mcreator.ancientruins.item.LiteriumingotItem;
@@ -47,6 +48,7 @@ public class AncientRuinsModItems {
 	public static final RegistryObject<Item> LITERIUM_ARMOR_CHESTPLATE = REGISTRY.register("literium_armor_chestplate", () -> new LiteriumArmorItem.Chestplate());
 	public static final RegistryObject<Item> LITERIUM_ARMOR_LEGGINGS = REGISTRY.register("literium_armor_leggings", () -> new LiteriumArmorItem.Leggings());
 	public static final RegistryObject<Item> LITERIUM_ARMOR_BOOTS = REGISTRY.register("literium_armor_boots", () -> new LiteriumArmorItem.Boots());
+	public static final RegistryObject<Item> TEST_SWORD = REGISTRY.register("test_sword", () -> new TestSwordItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

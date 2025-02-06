@@ -526,6 +526,21 @@
         ]
       },
       "path": "~/Instruments"
+    },
+    {
+      "name": "TestSword",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancient_ruins/models/item/test_sword.json",
+          "src/main/java/net/mcreator/ancientruins/item/TestSwordItem.java"
+        ]
+      },
+      "path": "~/Instruments"
     }
   ],
   "variable_elements": [],
@@ -557,6 +572,7 @@
       "item.ancient_ruins.eye": "Глаз Существа",
       "item.ancient_ruins.literium_pickaxe": "Кирка Из Литериума",
       "gui.ancient_ruins.anvilgui.button_craft": "Крафт",
+      "item.ancient_ruins.test_sword": "Test Sword",
       "item.ancient_ruins.literiumingot": "Слиок Литериума",
       "item.ancient_ruins.literium_sword": "литериумный меч",
       "item.ancient_ruins.ancient_remains": "Древние Останки",
@@ -581,6 +597,7 @@
       "item.ancient_ruins.eye": "Eye",
       "item.ancient_ruins.literium_pickaxe": "Literium Pickaxe",
       "gui.ancient_ruins.anvilgui.button_craft": "Craft",
+      "item.ancient_ruins.test_sword": "Test Sword",
       "item.ancient_ruins.literiumingot": "Literiumingot",
       "item.ancient_ruins.literium_sword": "Literium Sword",
       "item.ancient_ruins.ancient_remains": "Ancient Remains",
