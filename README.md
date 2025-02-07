@@ -1,4 +1,4 @@
-## ANCIENT RUINS MOD 0.0.8 dev
+## ANCIENT RUINS MOD 0.1.0 pre alpha
 This mod adds ancient ruins, items, mobs, bosses (in the future).
 
 данный мод добавляет древние руины, мобов, боссов (в планах).
