@@ -7,7 +7,6 @@ package net.mcreator.ancientruins.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -48,8 +47,6 @@ public class AncientRuinsModItems {
 	public static final RegistryObject<Item> LITERIUM_ARMOR_LEGGINGS = REGISTRY.register("literium_armor_leggings", () -> new LiteriumArmorItem.Leggings());
 	public static final RegistryObject<Item> LITERIUM_ARMOR_BOOTS = REGISTRY.register("literium_armor_boots", () -> new LiteriumArmorItem.Boots());
 	public static final RegistryObject<Item> TEST_SWORD = REGISTRY.register("test_sword", () -> new TestSwordItem());
-	public static final RegistryObject<Item> ANCIENT_RAT_SPAWN_EGG = REGISTRY.register("ancient_rat_spawn_egg",
-			() -> new ForgeSpawnEggItem(AncientRuinsModEntities.ANCIENT_RAT, -16697856, -16091392, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

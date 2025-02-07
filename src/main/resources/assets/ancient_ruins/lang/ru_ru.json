@@ -1,11 +1,9 @@
 {
-  "item.ancient_ruins.ancient_rat_spawn_egg": "Яйцо Древния Крыса",
   "itemGroup.tabdrievniie_ruiny": "Древние Руины",
   "item.ancient_ruins.literium_armor_leggings": "Поножи Из Литериума",
-  "block.ancient_ruins.blockes": "Центральное Ядро",
   "item.ancient_ruins.literium_armor_helmet": "Шлем Из Литериума",
+  "block.ancient_ruins.blockes": "Центральное Ядро",
   "item.ancient_ruins.morgen.desc": "morgenstern",
-  "entity.ancient_ruins.ancient_rat": "Древния Краса",
   "item.ancient_ruins.literium_ore": "Рудный Литериум",
   "block.ancient_ruins.literuim_ore": "Блок Руды Литериум",
   "item.ancient_ruins.eye": "Глаз Существа",
