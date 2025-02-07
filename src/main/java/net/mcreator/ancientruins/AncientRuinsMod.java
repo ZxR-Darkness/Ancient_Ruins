@@ -13,8 +13,6 @@
  */
 package net.mcreator.ancientruins;
 
-import software.bernie.geckolib3.GeckoLib;
-
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -67,7 +65,6 @@ public class AncientRuinsMod {
 
 		AncientRuinsModMenus.REGISTRY.register(bus);
 
-		GeckoLib.initialize();
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
