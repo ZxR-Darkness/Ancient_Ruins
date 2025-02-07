@@ -35,7 +35,7 @@
     {
       "name": "DrievniieRuiny",
       "type": "tab",
-      "sortid": 8,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drievniie_ruiny",
@@ -64,7 +64,7 @@
     {
       "name": "Anvilgui",
       "type": "gui",
-      "sortid": 9,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "anvilgui",
@@ -80,7 +80,7 @@
     {
       "name": "ScriptforAnvil",
       "type": "procedure",
-      "sortid": 5,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "scriptfor_anvil",
@@ -100,7 +100,7 @@
     {
       "name": "OpenGuiAnvil",
       "type": "procedure",
-      "sortid": 4,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "open_gui_anvil",
@@ -121,7 +121,7 @@
     {
       "name": "AnvilNaBlokieNazhataPravaiaKnopkaMyshi",
       "type": "procedure",
-      "sortid": 6,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "anvil_na_blokie_nazhata_pravaia_knopka_myshi",
@@ -156,7 +156,7 @@
     {
       "name": "LiteriumOre",
       "type": "item",
-      "sortid": 7,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "literium_ore",
@@ -170,7 +170,7 @@
     {
       "name": "Steelitem",
       "type": "item",
-      "sortid": 10,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steelitem",
@@ -184,7 +184,7 @@
     {
       "name": "Cheese",
       "type": "painting",
-      "sortid": 37,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cheese",
@@ -196,7 +196,7 @@
     {
       "name": "Morgen",
       "type": "musicdisc",
-      "sortid": 11,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "morgen",
@@ -211,7 +211,7 @@
     {
       "name": "EyePriShchielchkiePKM",
       "type": "procedure",
-      "sortid": 12,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eye_pri_shchielchkie_pkm",
@@ -230,7 +230,7 @@
     {
       "name": "Eye",
       "type": "item",
-      "sortid": 13,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eye",
@@ -244,7 +244,7 @@
     {
       "name": "Lootruins",
       "type": "loottable",
-      "sortid": 17,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lootruins",
@@ -257,7 +257,7 @@
     {
       "name": "RuinFirst",
       "type": "structure",
-      "sortid": 14,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruin_first",
@@ -271,7 +271,7 @@
     {
       "name": "AncientRemains",
       "type": "item",
-      "sortid": 15,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ancient_remains",
@@ -285,7 +285,7 @@
     {
       "name": "Literiumingot",
       "type": "item",
-      "sortid": 18,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "literiumingot",
@@ -299,7 +299,7 @@
     {
       "name": "CraftLiteriumIngot",
       "type": "recipe",
-      "sortid": 35,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_literium_ingot",
@@ -312,7 +312,7 @@
     {
       "name": "LiteriumPickaxe",
       "type": "tool",
-      "sortid": 26,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "literium_pickaxe",
@@ -327,7 +327,7 @@
     {
       "name": "LiteriumAxe",
       "type": "tool",
-      "sortid": 25,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "literium_axe",
@@ -342,7 +342,7 @@
     {
       "name": "LiteriumShovel",
       "type": "tool",
-      "sortid": 28,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "literium_shovel",
@@ -357,7 +357,7 @@
     {
       "name": "LiteriumHoe",
       "type": "tool",
-      "sortid": 29,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "literium_hoe",
@@ -372,7 +372,7 @@
     {
       "name": "LiteriumPickaxeRecipe",
       "type": "recipe",
-      "sortid": 19,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "literium_pickaxe_recipe",
@@ -386,7 +386,7 @@
     {
       "name": "LiteriumAxeRecipe",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "literium_axe_recipe",
@@ -400,7 +400,7 @@
     {
       "name": "LiteriumShovelRecipe",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "literium_shovel_recipe",
@@ -414,7 +414,7 @@
     {
       "name": "LiteriumHoeRecipe",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "literium_hoe_recipe",
@@ -428,7 +428,7 @@
     {
       "name": "LiteriumArmor",
       "type": "armor",
-      "sortid": 34,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "literium_armor",
@@ -502,7 +502,7 @@
     {
       "name": "TestSword",
       "type": "tool",
-      "sortid": 36,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "test_sword",
@@ -517,7 +517,7 @@
     {
       "name": "TestSwordrecipe",
       "type": "recipe",
-      "sortid": 39,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "test_swordrecipe",

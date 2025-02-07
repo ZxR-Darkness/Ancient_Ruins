@@ -12,10 +12,11 @@ import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
 
 import net.mcreator.ancientruins.procedures.EyePriShchielchkiePKMProcedure;
+import net.mcreator.ancientruins.init.AncientRuinsModTabs;
 
 public class EyeItem extends Item {
 	public EyeItem() {
-		super(new Item.Properties().tab(null).stacksTo(64).fireResistant().rarity(Rarity.EPIC).food((new FoodProperties.Builder()).nutrition(1).saturationMod(0f).alwaysEat()
+		super(new Item.Properties().tab(AncientRuinsModTabs.TAB_DRIEVNIIE_RUINY).stacksTo(64).fireResistant().rarity(Rarity.EPIC).food((new FoodProperties.Builder()).nutrition(1).saturationMod(0f).alwaysEat()
 
 				.build()));
 	}
