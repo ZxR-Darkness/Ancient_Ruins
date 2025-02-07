@@ -13,6 +13,8 @@
  */
 package net.mcreator.ancientruins;
 
+import software.bernie.geckolib3.GeckoLib;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -35,6 +37,7 @@ import net.mcreator.ancientruins.init.AncientRuinsModPaintings;
 import net.mcreator.ancientruins.init.AncientRuinsModMenus;
 import net.mcreator.ancientruins.init.AncientRuinsModItems;
 import net.mcreator.ancientruins.init.AncientRuinsModFeatures;
+import net.mcreator.ancientruins.init.AncientRuinsModEntities;
 import net.mcreator.ancientruins.init.AncientRuinsModBlocks;
 
 import java.util.function.Supplier;
@@ -58,12 +61,15 @@ public class AncientRuinsMod {
 		AncientRuinsModSounds.REGISTRY.register(bus);
 		AncientRuinsModBlocks.REGISTRY.register(bus);
 		AncientRuinsModItems.REGISTRY.register(bus);
+		AncientRuinsModEntities.REGISTRY.register(bus);
 
 		AncientRuinsModFeatures.REGISTRY.register(bus);
+
 		AncientRuinsModPaintings.REGISTRY.register(bus);
 
 		AncientRuinsModMenus.REGISTRY.register(bus);
 
+		GeckoLib.initialize();
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
