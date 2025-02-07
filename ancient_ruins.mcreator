@@ -527,6 +527,24 @@
         ]
       },
       "path": "~/Instruments"
+    },
+    {
+      "name": "AncientRat",
+      "type": "animatedentity",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_rat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/entity/model/AncientRatModel.java",
+          "src/main/java/net/mcreator/ancientruins/entity/AncientRatEntity.java",
+          "src/main/resources/data/ancient_ruins/forge/biome_modifier/ancient_rat_biome_modifier.json",
+          "src/main/java/net/mcreator/ancientruins/client/renderer/AncientRatRenderer.java",
+          "src/main/resources/assets/ancient_ruins/models/item/ancient_rat_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [],
@@ -542,51 +560,55 @@
   ],
   "language_map": {
     "ru_ru": {
-      "item.ancient_ruins.literium_axe": "Топор Из Литериума",
-      "subtitles.gags": "",
+      "item.ancient_ruins.ancient_rat_spawn_egg": "Яйцо Спавна Дрения Крыса",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
       "item.ancient_ruins.literium_armor_leggings": "Поножи Из Литериума",
-      "block.ancient_ruins.blockes": "Центральное Ядро",
       "item.ancient_ruins.literium_armor_helmet": "Шлем Из Литериума",
+      "block.ancient_ruins.blockes": "Центральное Ядро",
       "item.ancient_ruins.morgen.desc": "morgenstern",
+      "entity.ancient_ruins.ancient_rat": "Древния Крыса",
       "item.ancient_ruins.literium_ore": "Рудный Литериум",
-      "item.ancient_ruins.morgen": "NIGGERS",
-      "item.ancient_ruins.literium_armor_chestplate": "Нагрудник Из Литериума",
       "block.ancient_ruins.literuim_ore": "Блок Руды Литериум",
-      "item.ancient_ruins.literium_hoe": "Дерьмо",
-      "item.ancient_ruins.literium_armor_boots": "Ботинки Из Литериума",
       "item.ancient_ruins.eye": "Глаз Существа",
-      "item.ancient_ruins.literium_pickaxe": "Кирка Из Литериума",
       "gui.ancient_ruins.anvilgui.button_craft": "Крафт",
-      "item.ancient_ruins.test_sword": "TEST SWORD",
-      "item.ancient_ruins.literiumingot": "Слиок Литериума",
       "item.ancient_ruins.ancient_remains": "Древние Останки",
       "item.ancient_ruins.steelitem": "Стальной Слиток",
       "item.ancient_ruins.literium_shovel": "литериумная лопота",
+      "item.ancient_ruins.literium_axe": "Топор Из Литериума",
+      "subtitles.gags": "",
+      "item.ancient_ruins.morgen": "NIGGERS",
+      "item.ancient_ruins.literium_armor_chestplate": "Нагрудник Из Литериума",
+      "item.ancient_ruins.literium_hoe": "Дерьмо",
+      "item.ancient_ruins.literium_armor_boots": "Ботинки Из Литериума",
+      "item.ancient_ruins.literium_pickaxe": "Кирка Из Литериума",
+      "item.ancient_ruins.test_sword": "TEST SWORD",
+      "item.ancient_ruins.literiumingot": "Слиок Литериума",
       "block.ancient_ruins.anvil": "Наковальня"
     },
     "en_us": {
-      "item.ancient_ruins.literium_axe": "Literium Axe",
-      "subtitles.gags": "",
+      "item.ancient_ruins.ancient_rat_spawn_egg": "Ancient Rat Spawn Egg",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
       "item.ancient_ruins.literium_armor_leggings": "Literium Leggings",
       "item.ancient_ruins.literium_armor_helmet": "Literium Helmet",
       "block.ancient_ruins.blockes": "Core",
       "item.ancient_ruins.morgen.desc": "morgenstern black man",
+      "entity.ancient_ruins.ancient_rat": "Ancient Rat",
       "item.ancient_ruins.literium_ore": "Literium Ore",
-      "item.ancient_ruins.morgen": " BLACK RUSSIA BOY",
-      "item.ancient_ruins.literium_armor_chestplate": "Literium Chestplate",
       "block.ancient_ruins.literuim_ore": "Literuim Ore",
-      "item.ancient_ruins.literium_hoe": "Literium Hoe",
-      "item.ancient_ruins.literium_armor_boots": "Literium Boots",
       "item.ancient_ruins.eye": "Eye",
-      "item.ancient_ruins.literium_pickaxe": "Literium Pickaxe",
       "gui.ancient_ruins.anvilgui.button_craft": "Craft",
-      "item.ancient_ruins.test_sword": "Test Sword",
-      "item.ancient_ruins.literiumingot": "Literiumingot",
       "item.ancient_ruins.ancient_remains": "Ancient Remains",
       "item.ancient_ruins.steelitem": "Steel ingot",
       "item.ancient_ruins.literium_shovel": "Literium Shovel",
+      "item.ancient_ruins.literium_axe": "Literium Axe",
+      "subtitles.gags": "",
+      "item.ancient_ruins.morgen": " BLACK RUSSIA BOY",
+      "item.ancient_ruins.literium_armor_chestplate": "Literium Chestplate",
+      "item.ancient_ruins.literium_hoe": "Literium Hoe",
+      "item.ancient_ruins.literium_armor_boots": "Literium Boots",
+      "item.ancient_ruins.literium_pickaxe": "Literium Pickaxe",
+      "item.ancient_ruins.test_sword": "Test Sword",
+      "item.ancient_ruins.literiumingot": "Literiumingot",
       "block.ancient_ruins.anvil": "Anvil"
     }
   },
@@ -604,6 +626,10 @@
       {
         "name": "Instruments",
         "children": []
+      },
+      {
+        "name": "Mobs",
+        "children": []
       }
     ]
   },
@@ -620,7 +646,9 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.19.2",
     "credits": "Thanks for Mcreator)",
     "modElementsPackage": "net.mcreator.ancientruins",

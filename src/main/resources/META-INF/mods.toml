@@ -20,4 +20,10 @@ description="добавляет дрвение руины, мобов, пред�
 
 
 
+[[dependencies.ancient_ruins]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
