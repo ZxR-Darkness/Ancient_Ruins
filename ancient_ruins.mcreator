@@ -184,6 +184,7 @@
     {
       "name": "Cheese",
       "type": "painting",
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cheese",
@@ -339,21 +340,6 @@
       "path": "~/Instruments"
     },
     {
-      "name": "LiteriumSword",
-      "type": "tool",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "literium_sword",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/ancient_ruins/models/item/literium_sword.json",
-          "src/main/java/net/mcreator/ancientruins/item/LiteriumSwordItem.java"
-        ]
-      },
-      "path": "~/Instruments"
-    },
-    {
       "name": "LiteriumShovel",
       "type": "tool",
       "sortid": 28,
@@ -407,20 +393,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/ancient_ruins/recipes/literium_axe_recipe.json"
-        ]
-      },
-      "path": "~/Instruments"
-    },
-    {
-      "name": "LiteriumSwordRecipe",
-      "type": "recipe",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "literium_sword_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/ancient_ruins/recipes/literium_sword_recipe.json"
         ]
       },
       "path": "~/Instruments"
@@ -574,7 +546,6 @@
       "gui.ancient_ruins.anvilgui.button_craft": "Крафт",
       "item.ancient_ruins.test_sword": "Test Sword",
       "item.ancient_ruins.literiumingot": "Слиок Литериума",
-      "item.ancient_ruins.literium_sword": "литериумный меч",
       "item.ancient_ruins.ancient_remains": "Древние Останки",
       "item.ancient_ruins.steelitem": "Стальной Слиток",
       "item.ancient_ruins.literium_shovel": "литериумная лопота",
@@ -599,7 +570,6 @@
       "gui.ancient_ruins.anvilgui.button_craft": "Craft",
       "item.ancient_ruins.test_sword": "Test Sword",
       "item.ancient_ruins.literiumingot": "Literiumingot",
-      "item.ancient_ruins.literium_sword": "Literium Sword",
       "item.ancient_ruins.ancient_remains": "Ancient Remains",
       "item.ancient_ruins.steelitem": "Steel ingot",
       "item.ancient_ruins.literium_shovel": "Literium Shovel",

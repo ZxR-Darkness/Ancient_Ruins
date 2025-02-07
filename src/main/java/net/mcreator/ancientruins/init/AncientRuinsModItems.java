@@ -17,7 +17,6 @@ import net.mcreator.ancientruins.item.TestSwordItem;
 import net.mcreator.ancientruins.item.SteelitemItem;
 import net.mcreator.ancientruins.item.MorgenItem;
 import net.mcreator.ancientruins.item.LiteriumingotItem;
-import net.mcreator.ancientruins.item.LiteriumSwordItem;
 import net.mcreator.ancientruins.item.LiteriumShovelItem;
 import net.mcreator.ancientruins.item.LiteriumPickaxeItem;
 import net.mcreator.ancientruins.item.LiteriumOreItem;
@@ -41,7 +40,6 @@ public class AncientRuinsModItems {
 	public static final RegistryObject<Item> LITERIUMINGOT = REGISTRY.register("literiumingot", () -> new LiteriumingotItem());
 	public static final RegistryObject<Item> LITERIUM_AXE = REGISTRY.register("literium_axe", () -> new LiteriumAxeItem());
 	public static final RegistryObject<Item> LITERIUM_PICKAXE = REGISTRY.register("literium_pickaxe", () -> new LiteriumPickaxeItem());
-	public static final RegistryObject<Item> LITERIUM_SWORD = REGISTRY.register("literium_sword", () -> new LiteriumSwordItem());
 	public static final RegistryObject<Item> LITERIUM_SHOVEL = REGISTRY.register("literium_shovel", () -> new LiteriumShovelItem());
 	public static final RegistryObject<Item> LITERIUM_HOE = REGISTRY.register("literium_hoe", () -> new LiteriumHoeItem());
 	public static final RegistryObject<Item> LITERIUM_ARMOR_HELMET = REGISTRY.register("literium_armor_helmet", () -> new LiteriumArmorItem.Helmet());
