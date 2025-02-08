@@ -30,13 +30,13 @@
         "value": ""
       },
       {
-        "value": "Items.DIAMOND"
+        "value": "CUSTOM:AncientRemains"
       },
       {
         "value": "Items.STICK"
       },
       {
-        "value": "Items.DIAMOND"
+        "value": "CUSTOM:AncientRemains"
       }
     ],
     "recipeReturnStack": {

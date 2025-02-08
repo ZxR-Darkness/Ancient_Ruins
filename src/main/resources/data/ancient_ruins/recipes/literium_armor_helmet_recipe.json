@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
-    "3 5"
+    "345"
   ],
   "key": {
     "0": {
@@ -16,6 +16,9 @@
     },
     "3": {
       "item": "ancient_ruins:literiumingot"
+    },
+    "4": {
+      "item": "ancient_ruins:ancient_remains"
     },
     "5": {
       "item": "ancient_ruins:literiumingot"
