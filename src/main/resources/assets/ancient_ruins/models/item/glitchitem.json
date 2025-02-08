@@ -1,0 +1,6 @@
+{
+  "parent": "ancient_ruins:displaysettings/glitch",
+  "textures": {
+    "layer0": "ancient_ruins:items/glitch_one"
+  }
+}

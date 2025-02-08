@@ -2,8 +2,8 @@
   "item.ancient_ruins.ancient_rat_spawn_egg": "Ancient Rat Spawn Egg",
   "itemGroup.tabdrievniie_ruiny": "Древние Руины",
   "item.ancient_ruins.literium_armor_leggings": "Literium Leggings",
-  "block.ancient_ruins.blockes": "Core",
   "item.ancient_ruins.literium_armor_helmet": "Literium Helmet",
+  "block.ancient_ruins.blockes": "Core",
   "item.ancient_ruins.morgen.desc": "morgenstern black man",
   "entity.ancient_ruins.ancient_rat": "Ancient Rat",
   "item.ancient_ruins.literium_ore": "Literium Ore",
@@ -22,5 +22,6 @@
   "item.ancient_ruins.literium_pickaxe": "Literium Pickaxe",
   "item.ancient_ruins.test_sword": "Test Sword",
   "item.ancient_ruins.literiumingot": "Literiumingot",
+  "item.ancient_ruins.glitchitem": "Glitch",
   "block.ancient_ruins.anvil": "Anvil"
 }

@@ -545,6 +545,23 @@
         ]
       },
       "path": "~/Mobs"
+    },
+    {
+      "name": "Glitchitem",
+      "type": "animateditem",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitchitem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/item/GlitchitemItem.java",
+          "src/main/resources/assets/ancient_ruins/models/item/glitchitem.json",
+          "src/main/java/net/mcreator/ancientruins/item/model/GlitchitemItemModel.java",
+          "src/main/java/net/mcreator/ancientruins/item/renderer/GlitchitemItemRenderer.java"
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [],
@@ -563,8 +580,8 @@
       "item.ancient_ruins.ancient_rat_spawn_egg": "Яйцо Спавна Дрения Крыса",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
       "item.ancient_ruins.literium_armor_leggings": "Поножи Из Литериума",
-      "block.ancient_ruins.blockes": "Центральное Ядро",
       "item.ancient_ruins.literium_armor_helmet": "Шлем Из Литериума",
+      "block.ancient_ruins.blockes": "Центральное Ядро",
       "item.ancient_ruins.morgen.desc": "morgenstern",
       "entity.ancient_ruins.ancient_rat": "Древния Крыса",
       "item.ancient_ruins.literium_ore": "Рудный Литериум",
@@ -583,14 +600,15 @@
       "item.ancient_ruins.literium_pickaxe": "Кирка Из Литериума",
       "item.ancient_ruins.test_sword": "TEST SWORD",
       "item.ancient_ruins.literiumingot": "Слиок Литериума",
+      "item.ancient_ruins.glitchitem": "Glitch",
       "block.ancient_ruins.anvil": "Наковальня"
     },
     "en_us": {
       "item.ancient_ruins.ancient_rat_spawn_egg": "Ancient Rat Spawn Egg",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
       "item.ancient_ruins.literium_armor_leggings": "Literium Leggings",
-      "block.ancient_ruins.blockes": "Core",
       "item.ancient_ruins.literium_armor_helmet": "Literium Helmet",
+      "block.ancient_ruins.blockes": "Core",
       "item.ancient_ruins.morgen.desc": "morgenstern black man",
       "entity.ancient_ruins.ancient_rat": "Ancient Rat",
       "item.ancient_ruins.literium_ore": "Literium Ore",
@@ -609,6 +627,7 @@
       "item.ancient_ruins.literium_pickaxe": "Literium Pickaxe",
       "item.ancient_ruins.test_sword": "Test Sword",
       "item.ancient_ruins.literiumingot": "Literiumingot",
+      "item.ancient_ruins.glitchitem": "Glitch",
       "block.ancient_ruins.anvil": "Anvil"
     }
   },
