@@ -5,7 +5,7 @@
     "structure": "destroy_element_onee",
     "randomlyRotateStructure": false,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 1500,
+    "spawnProbability": 1200,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
