@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.ancientruins.block.LiteruimOreBlock;
+import net.mcreator.ancientruins.block.FoundryBlock;
 import net.mcreator.ancientruins.block.BlockesBlock;
 import net.mcreator.ancientruins.block.AnvilBlock;
 import net.mcreator.ancientruins.AncientRuinsMod;
@@ -20,4 +21,5 @@ public class AncientRuinsModBlocks {
 	public static final RegistryObject<Block> ANVIL = REGISTRY.register("anvil", () -> new AnvilBlock());
 	public static final RegistryObject<Block> BLOCKES = REGISTRY.register("blockes", () -> new BlockesBlock());
 	public static final RegistryObject<Block> LITERUIM_ORE = REGISTRY.register("literuim_ore", () -> new LiteruimOreBlock());
+	public static final RegistryObject<Block> FOUNDRY = REGISTRY.register("foundry", () -> new FoundryBlock());
 }

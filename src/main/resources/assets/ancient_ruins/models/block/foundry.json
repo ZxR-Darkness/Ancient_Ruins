@@ -1,0 +1,10 @@
+{
+  "parent": "ancient_ruins:custom/foundry",
+  "textures": {
+    "all": "ancient_ruins:blocks/test",
+    "particle": "ancient_ruins:blocks/test",
+    "0": "ancient_ruins:blocks/pech",
+    "1": "ancient_ruins:blocks/aphead_texture"
+  },
+  "render_type": "solid"
+}

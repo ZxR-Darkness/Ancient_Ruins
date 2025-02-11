@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "pech",
+        "1": "aphead_texture"
+      },
+      "name": "default"
+    }
+  }
+}

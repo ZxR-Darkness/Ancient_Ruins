@@ -52,6 +52,7 @@ public class AncientRuinsModItems {
 	public static final RegistryObject<Item> ANCIENT_RAT_SPAWN_EGG = REGISTRY.register("ancient_rat_spawn_egg",
 			() -> new ForgeSpawnEggItem(AncientRuinsModEntities.ANCIENT_RAT, -16751104, -13382656, new Item.Properties().tab(AncientRuinsModTabs.TAB_DRIEVNIIE_RUINY)));
 	public static final RegistryObject<Item> GLITCHITEM = REGISTRY.register("glitchitem", () -> new GlitchitemItem());
+	public static final RegistryObject<Item> FOUNDRY = block(AncientRuinsModBlocks.FOUNDRY, AncientRuinsModTabs.TAB_DRIEVNIIE_RUINY);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
