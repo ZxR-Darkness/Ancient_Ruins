@@ -85,7 +85,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "Items.REDSTONE"
+      "value": "CUSTOM:Glitchitem"
     },
     "livingSound": {
       "value": ""
