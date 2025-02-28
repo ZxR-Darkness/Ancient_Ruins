@@ -15,4 +15,5 @@ import net.mcreator.ancientruins.AncientRuinsMod;
 public class AncientRuinsModPaintings {
 	public static final DeferredRegister<PaintingVariant> REGISTRY = DeferredRegister.create(ForgeRegistries.PAINTING_VARIANTS, AncientRuinsMod.MODID);
 	public static final RegistryObject<PaintingVariant> CHEESE = REGISTRY.register("cheese", () -> new PaintingVariant(32, 32));
+	public static final RegistryObject<PaintingVariant> MEME = REGISTRY.register("meme", () -> new PaintingVariant(64, 32));
 }
