@@ -1,0 +1,9 @@
+{
+  "parent": "ancient_ruins:custom/portal_block",
+  "textures": {
+    "all": "ancient_ruins:blocks/crying_obsidian",
+    "particle": "ancient_ruins:blocks/crying_obsidian",
+    "1": "ancient_ruins:blocks/crying_obsidian"
+  },
+  "render_type": "solid"
+}

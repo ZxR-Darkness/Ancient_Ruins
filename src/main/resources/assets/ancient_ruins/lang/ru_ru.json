@@ -1,4 +1,5 @@
 {
+  "item.ancient_ruins.ancient_portals": "Portal Igniter",
   "item.ancient_ruins.ancient_rat_spawn_egg": "Яйцо Спавна Дрения Крыса",
   "itemGroup.tabdrievniie_ruiny": "Древние Руины",
   "item.ancient_ruins.literium_armor_leggings": "Поножи Из Литериума",
@@ -15,6 +16,7 @@
   "item.ancient_ruins.literium_shovel": "литериумная лопота",
   "item.ancient_ruins.literium_axe": "Топор Из Литериума",
   "subtitles.gags": "",
+  "block.ancient_ruins.block_portal": "Block Portal",
   "item.ancient_ruins.morgen": "NIGGERS",
   "item.ancient_ruins.literium_armor_chestplate": "Нагрудник Из Литериума",
   "block.ancient_ruins.foundry": "Foundry",

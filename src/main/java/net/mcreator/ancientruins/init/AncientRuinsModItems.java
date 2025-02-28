@@ -27,6 +27,7 @@ import net.mcreator.ancientruins.item.LiteriumArmorItem;
 import net.mcreator.ancientruins.item.GlitchitemItem;
 import net.mcreator.ancientruins.item.EyeItem;
 import net.mcreator.ancientruins.item.AncientRemainsItem;
+import net.mcreator.ancientruins.item.AncientPortalsItem;
 import net.mcreator.ancientruins.AncientRuinsMod;
 
 public class AncientRuinsModItems {
@@ -53,6 +54,8 @@ public class AncientRuinsModItems {
 			() -> new ForgeSpawnEggItem(AncientRuinsModEntities.ANCIENT_RAT, -16751104, -13382656, new Item.Properties().tab(AncientRuinsModTabs.TAB_DRIEVNIIE_RUINY)));
 	public static final RegistryObject<Item> GLITCHITEM = REGISTRY.register("glitchitem", () -> new GlitchitemItem());
 	public static final RegistryObject<Item> FOUNDRY = block(AncientRuinsModBlocks.FOUNDRY, AncientRuinsModTabs.TAB_DRIEVNIIE_RUINY);
+	public static final RegistryObject<Item> BLOCK_PORTAL = block(AncientRuinsModBlocks.BLOCK_PORTAL, AncientRuinsModTabs.TAB_DRIEVNIIE_RUINY);
+	public static final RegistryObject<Item> ANCIENT_PORTALS = REGISTRY.register("ancient_portals", () -> new AncientPortalsItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

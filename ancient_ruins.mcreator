@@ -572,13 +572,54 @@
       "registry_name": "foundry",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ancient_ruins/blockstates/foundry.json",
           "src/main/resources/assets/ancient_ruins/models/block/foundry.json",
+          "src/main/resources/assets/ancient_ruins/blockstates/foundry.json",
           "src/main/java/net/mcreator/ancientruins/block/FoundryBlock.java",
           "src/main/resources/assets/ancient_ruins/models/item/foundry.json"
         ]
       },
       "path": "~/foundry"
+    },
+    {
+      "name": "BlockPortal",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_portal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancient_ruins/models/block/block_portal.json",
+          "src/main/resources/assets/ancient_ruins/models/item/block_portal.json",
+          "src/main/java/net/mcreator/ancientruins/block/BlockPortalBlock.java",
+          "src/main/resources/assets/ancient_ruins/blockstates/block_portal.json"
+        ]
+      },
+      "path": "~/New_World/Blocks_Portal"
+    },
+    {
+      "name": "AncientPortals",
+      "type": "dimension",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_portals",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/world/teleporter/AncientPortalsTeleporter.java",
+          "src/main/java/net/mcreator/ancientruins/world/teleporter/AncientPortalsPortalShape.java",
+          "src/main/java/net/mcreator/ancientruins/item/AncientPortalsItem.java",
+          "src/main/resources/assets/ancient_ruins/blockstates/ancient_portals_portal.json",
+          "src/main/resources/assets/ancient_ruins/models/block/ancient_portals_portal_ew.json",
+          "src/main/resources/assets/ancient_ruins/models/block/ancient_portals_portal_ns.json",
+          "src/main/resources/assets/ancient_ruins/models/item/ancient_portals.json",
+          "src/main/resources/data/ancient_ruins/dimension_type/ancient_portals.json",
+          "src/main/resources/data/ancient_ruins/dimension/ancient_portals.json",
+          "src/main/java/net/mcreator/ancientruins/block/AncientPortalsPortalBlock.java",
+          "src/main/java/net/mcreator/ancientruins/world/dimension/AncientPortalsDimension.java"
+        ]
+      },
+      "path": "~/New_World/Blocks_Portal"
     }
   ],
   "variable_elements": [],
@@ -594,6 +635,7 @@
   ],
   "language_map": {
     "ru_ru": {
+      "item.ancient_ruins.ancient_portals": "Portal Igniter",
       "item.ancient_ruins.ancient_rat_spawn_egg": "Яйцо Спавна Дрения Крыса",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
       "item.ancient_ruins.literium_armor_leggings": "Поножи Из Литериума",
@@ -610,6 +652,7 @@
       "item.ancient_ruins.literium_shovel": "литериумная лопота",
       "item.ancient_ruins.literium_axe": "Топор Из Литериума",
       "subtitles.gags": "",
+      "block.ancient_ruins.block_portal": "Block Portal",
       "item.ancient_ruins.morgen": "NIGGERS",
       "item.ancient_ruins.literium_armor_chestplate": "Нагрудник Из Литериума",
       "block.ancient_ruins.foundry": "Foundry",
@@ -622,6 +665,7 @@
       "block.ancient_ruins.anvil": "Наковальня"
     },
     "en_us": {
+      "item.ancient_ruins.ancient_portals": "Portal Igniter",
       "item.ancient_ruins.ancient_rat_spawn_egg": "Ancient Rat Spawn Egg",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
       "item.ancient_ruins.literium_armor_leggings": "Literium Leggings",
@@ -638,6 +682,7 @@
       "item.ancient_ruins.literium_shovel": "Literium Shovel",
       "item.ancient_ruins.literium_axe": "Literium Axe",
       "subtitles.gags": "",
+      "block.ancient_ruins.block_portal": "Block Portal",
       "item.ancient_ruins.morgen": " BLACK RUSSIA BOY",
       "item.ancient_ruins.literium_armor_chestplate": "Literium Chestplate",
       "block.ancient_ruins.foundry": "Foundry",
@@ -699,7 +744,7 @@
   "workspaceSettings": {
     "modid": "ancient_ruins",
     "modName": "ancient ruins",
-    "version": "0.1.1-pre-alpha",
+    "version": "0.1.2-alpha",
     "description": "добавляет дрвение руины, мобов, предметы, структуры.",
     "author": "OS TEAM",
     "websiteURL": "https://github.com/ZxR-Darki",
