@@ -777,7 +777,7 @@
   "workspaceSettings": {
     "modid": "ancient_ruins",
     "modName": "ancient ruins",
-    "version": "0.1.2-alpha",
+    "version": "0.1.2-beta",
     "description": "добавляет дрвение руины, мобов, предметы, структуры.",
     "author": "OS TEAM",
     "websiteURL": "https://github.com/ZxR-Darki",
