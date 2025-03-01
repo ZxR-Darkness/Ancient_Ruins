@@ -17,22 +17,6 @@
       }
     },
     {
-      "name": "Anvil",
-      "type": "block",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "anvil",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/ancientruins/block/AnvilBlock.java",
-          "src/main/resources/assets/ancient_ruins/blockstates/anvil.json",
-          "src/main/resources/assets/ancient_ruins/models/item/anvil.json",
-          "src/main/resources/assets/ancient_ruins/models/block/anvil.json"
-        ]
-      }
-    },
-    {
       "name": "DrievniieRuiny",
       "type": "tab",
       "sortid": 16,
@@ -58,98 +42,6 @@
           "src/main/resources/assets/ancient_ruins/models/item/literuim_ore.json",
           "src/main/resources/data/ancient_ruins/forge/biome_modifier/literuim_ore_biome_modifier.json",
           "src/main/resources/assets/ancient_ruins/blockstates/literuim_ore.json"
-        ]
-      }
-    },
-    {
-      "name": "Anvilgui",
-      "type": "gui",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "anvilgui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/ancientruins/network/AnvilguiButtonMessage.java",
-          "src/main/java/net/mcreator/ancientruins/world/inventory/AnvilguiMenu.java",
-          "src/main/java/net/mcreator/ancientruins/client/gui/AnvilguiScreen.java"
-        ]
-      },
-      "path": "~/Gui_folder"
-    },
-    {
-      "name": "ScriptforAnvil",
-      "type": "procedure",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "scriptfor_anvil",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/ancientruins/procedures/ScriptforAnvilProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Gui_folder"
-    },
-    {
-      "name": "OpenGuiAnvil",
-      "type": "procedure",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "open_gui_anvil",
-      "metadata": {
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/mcreator/ancientruins/procedures/OpenGuiAnvilProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Gui_folder"
-    },
-    {
-      "name": "AnvilNaBlokieNazhataPravaiaKnopkaMyshi",
-      "type": "procedure",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "anvil_na_blokie_nazhata_pravaia_knopka_myshi",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/ancientruins/procedures/AnvilNaBlokieNazhataPravaiaKnopkaMyshiProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
         ]
       }
     },
@@ -293,19 +185,6 @@
         "files": [
           "src/main/java/net/mcreator/ancientruins/item/LiteriumingotItem.java",
           "src/main/resources/assets/ancient_ruins/models/item/literiumingot.json"
-        ]
-      }
-    },
-    {
-      "name": "CraftLiteriumIngot",
-      "type": "recipe",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "craft_literium_ingot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/ancient_ruins/recipes/craft_literium_ingot.json"
         ]
       }
     },
@@ -632,6 +511,123 @@
         "files": []
       },
       "path": "~/gags"
+    },
+    {
+      "name": "Steelcraft",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/recipes/steelcraft.json"
+        ]
+      },
+      "path": "~/Gui_folder"
+    },
+    {
+      "name": "CraftLiterium",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_literium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/recipes/craft_literium.json"
+        ]
+      },
+      "path": "~/Gui_folder"
+    },
+    {
+      "name": "SteelCraft2",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_craft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/recipes/steel_craft_2.json"
+        ]
+      },
+      "path": "~/Gui_folder"
+    },
+    {
+      "name": "FarelOre",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farel_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/world/features/ores/FarelOreFeature.java",
+          "src/main/resources/assets/ancient_ruins/models/item/farel_ore.json",
+          "src/main/resources/assets/ancient_ruins/models/block/farel_ore.json",
+          "src/main/resources/assets/ancient_ruins/blockstates/farel_ore.json",
+          "src/main/java/net/mcreator/ancientruins/block/FarelOreBlock.java",
+          "src/main/resources/data/ancient_ruins/forge/biome_modifier/farel_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/Nether_Folder/Ores"
+    },
+    {
+      "name": "FareloreItem",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farelore_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/item/FareloreItemItem.java",
+          "src/main/resources/assets/ancient_ruins/models/item/farelore_item.json"
+        ]
+      },
+      "path": "~/Nether_Folder/Ores"
+    },
+    {
+      "name": "CraftingPortal",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_portal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/recipes/crafting_portal.json"
+        ]
+      },
+      "path": "~/Nether_Folder/Craft_Nether"
+    },
+    {
+      "name": "CraftingIgnites",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_ignites",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/recipes/crafting_ignites.json"
+        ]
+      },
+      "path": "~/New_World/Items"
+    },
+    {
+      "name": "Startmod",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "startmod",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/advancements/startmod.json"
+        ]
+      },
+      "path": "~/Dostigs"
     }
   ],
   "variable_elements": [],
@@ -649,16 +645,17 @@
     "ru_ru": {
       "item.ancient_ruins.ancient_portals": "поджигатель портала",
       "item.ancient_ruins.ancient_rat_spawn_egg": "Яйцо Спавна Дрения Крыса",
+      "advancements.startmod.descr": "join mod",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
       "item.ancient_ruins.literium_armor_leggings": "Поножи Из Литериума",
-      "item.ancient_ruins.literium_armor_helmet": "Шлем Из Литериума",
       "block.ancient_ruins.blockes": "Центральное Ядро",
+      "item.ancient_ruins.literium_armor_helmet": "Шлем Из Литериума",
+      "advancements.startmod.title": "Welcome AR",
       "item.ancient_ruins.morgen.desc": "morgenstern",
       "entity.ancient_ruins.ancient_rat": "Древния Крыса",
       "item.ancient_ruins.literium_ore": "Рудный Литериум",
       "block.ancient_ruins.literuim_ore": "Блок Руды Литериум",
       "item.ancient_ruins.eye": "Глаз Существа",
-      "gui.ancient_ruins.anvilgui.button_craft": "Крафт",
       "item.ancient_ruins.ancient_remains": "Древние Останки",
       "item.ancient_ruins.steelitem": "Стальной Слиток",
       "item.ancient_ruins.literium_shovel": "литериумная лопота",
@@ -666,29 +663,31 @@
       "subtitles.gags": "",
       "block.ancient_ruins.block_portal": "Блок Портала",
       "item.ancient_ruins.morgen": "NIGGERS",
+      "item.ancient_ruins.farelore_item": "Рудный Фарэл",
       "item.ancient_ruins.literium_armor_chestplate": "Нагрудник Из Литериума",
       "block.ancient_ruins.foundry": "Фабрика",
       "item.ancient_ruins.literium_hoe": "Дерьмо",
       "item.ancient_ruins.literium_armor_boots": "Ботинки Из Литериума",
       "item.ancient_ruins.literium_pickaxe": "Кирка Из Литериума",
+      "block.ancient_ruins.farel_ore": "Блок Руды Фарэл",
       "item.ancient_ruins.test_sword": "Древний Меч",
       "item.ancient_ruins.literiumingot": "Слиок Литериума",
-      "item.ancient_ruins.glitchitem": "Глитч",
-      "block.ancient_ruins.anvil": "Наковальня"
+      "item.ancient_ruins.glitchitem": "Глитч"
     },
     "en_us": {
       "item.ancient_ruins.ancient_portals": "Portal Igniter",
       "item.ancient_ruins.ancient_rat_spawn_egg": "Ancient Rat Spawn Egg",
+      "advancements.startmod.descr": "join mod",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
       "item.ancient_ruins.literium_armor_leggings": "Literium Leggings",
       "item.ancient_ruins.literium_armor_helmet": "Literium Helmet",
       "block.ancient_ruins.blockes": "Core",
+      "advancements.startmod.title": "Welcome AR",
       "item.ancient_ruins.morgen.desc": "morgenstern black man",
       "entity.ancient_ruins.ancient_rat": "Ancient Rat",
       "item.ancient_ruins.literium_ore": "Literium Ore",
       "block.ancient_ruins.literuim_ore": "Literuim Ore",
       "item.ancient_ruins.eye": "Eye",
-      "gui.ancient_ruins.anvilgui.button_craft": "Craft",
       "item.ancient_ruins.ancient_remains": "Ancient Remains",
       "item.ancient_ruins.steelitem": "Steel ingot",
       "item.ancient_ruins.literium_shovel": "Literium Shovel",
@@ -696,15 +695,16 @@
       "subtitles.gags": "",
       "block.ancient_ruins.block_portal": "Block Portal",
       "item.ancient_ruins.morgen": " BLACK RUSSIA BOY",
+      "item.ancient_ruins.farelore_item": "Farel Ore",
       "item.ancient_ruins.literium_armor_chestplate": "Literium Chestplate",
       "block.ancient_ruins.foundry": "Foundry",
       "item.ancient_ruins.literium_hoe": "Literium Hoe",
       "item.ancient_ruins.literium_armor_boots": "Literium Boots",
       "item.ancient_ruins.literium_pickaxe": "Literium Pickaxe",
+      "block.ancient_ruins.farel_ore": "Farel Ore",
       "item.ancient_ruins.test_sword": "Test Sword",
       "item.ancient_ruins.literiumingot": "Literiumingot",
-      "item.ancient_ruins.glitchitem": "Glitch",
-      "block.ancient_ruins.anvil": "Anvil"
+      "item.ancient_ruins.glitchitem": "Glitch"
     }
   },
   "foldersRoot": {
@@ -748,8 +748,29 @@
           {
             "name": "Blocks_Portal",
             "children": []
+          },
+          {
+            "name": "Items",
+            "children": []
           }
         ]
+      },
+      {
+        "name": "Nether_Folder",
+        "children": [
+          {
+            "name": "Ores",
+            "children": []
+          },
+          {
+            "name": "Craft_Nether",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Dostigs",
+        "children": []
       }
     ]
   },

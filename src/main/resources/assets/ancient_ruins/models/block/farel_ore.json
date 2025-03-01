@@ -1,0 +1,9 @@
+{
+  "parent": "ancient_ruins:custom/hell_ore",
+  "textures": {
+    "all": "ancient_ruins:blocks/nether_gold_ore",
+    "particle": "ancient_ruins:blocks/nether_gold_ore",
+    "0": "ancient_ruins:blocks/nether_gold_ore"
+  },
+  "render_type": "solid"
+}

@@ -11,15 +11,15 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "smithingInputStack": {
-      "value": "CUSTOM:Steelitem"
+      "value": "Items.COAL#0"
     },
     "smithingInputAdditionStack": {
-      "value": "CUSTOM:LiteriumOre"
+      "value": "Items.RAW_IRON"
     },
     "smithingReturnStack": {
-      "value": "CUSTOM:Literiumingot"
+      "value": "CUSTOM:Steelitem"
     },
-    "name": "craft_literium_ingot",
+    "name": "steelcraft",
     "namespace": "mod"
   }
 }

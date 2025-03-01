@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ancient_ruins:literiumingot"
+    },
+    "1": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "2": {
+      "item": "ancient_ruins:literiumingot"
+    },
+    "3": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "4": {
+      "item": "ancient_ruins:farelore_item"
+    },
+    "5": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "6": {
+      "item": "ancient_ruins:literiumingot"
+    },
+    "7": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "8": {
+      "item": "ancient_ruins:literiumingot"
+    }
+  },
+  "result": {
+    "item": "ancient_ruins:block_portal",
+    "count": 4
+  }
+}
