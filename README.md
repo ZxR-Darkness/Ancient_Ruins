@@ -1,4 +1,4 @@
-## ANCIENT RUINS MOD 0.1.1 pre alpha
+## ANCIENT RUINS MOD 0.1.2 alpha
 This mod adds ancient ruins, items, mobs, bosses (in the future).
 
 # Russia 
