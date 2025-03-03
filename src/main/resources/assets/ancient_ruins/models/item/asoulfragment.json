@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ancient_ruins:items/soul_fragment_texture"
+  }
+}

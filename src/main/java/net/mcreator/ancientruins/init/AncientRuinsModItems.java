@@ -27,6 +27,7 @@ import net.mcreator.ancientruins.item.LiteriumArmorItem;
 import net.mcreator.ancientruins.item.GlitchitemItem;
 import net.mcreator.ancientruins.item.FareloreItemItem;
 import net.mcreator.ancientruins.item.EyeItem;
+import net.mcreator.ancientruins.item.AsoulfragmentItem;
 import net.mcreator.ancientruins.item.AncientRemainsItem;
 import net.mcreator.ancientruins.item.AncientPortalsItem;
 import net.mcreator.ancientruins.AncientRuinsMod;
@@ -58,6 +59,7 @@ public class AncientRuinsModItems {
 	public static final RegistryObject<Item> ANCIENT_PORTALS = REGISTRY.register("ancient_portals", () -> new AncientPortalsItem());
 	public static final RegistryObject<Item> FAREL_ORE = block(AncientRuinsModBlocks.FAREL_ORE, AncientRuinsModTabs.TAB_DRIEVNIIE_RUINY);
 	public static final RegistryObject<Item> FARELORE_ITEM = REGISTRY.register("farelore_item", () -> new FareloreItemItem());
+	public static final RegistryObject<Item> ASOULFRAGMENT = REGISTRY.register("asoulfragment", () -> new AsoulfragmentItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
