@@ -12,7 +12,7 @@
   "item.ancient_ruins.literium_ore": "Literium Ore",
   "block.ancient_ruins.literuim_ore": "Literuim Ore",
   "item.ancient_ruins.eye": "Eye",
-  "item.ancient_ruins.asoulfragment": "Asoulfragment",
+  "item.ancient_ruins.asoulfragment": "soul fragment",
   "item.ancient_ruins.ancient_remains": "Ancient Remains",
   "item.ancient_ruins.steelitem": "Steel ingot",
   "item.ancient_ruins.literium_shovel": "Literium Shovel",
@@ -29,7 +29,7 @@
   "item.ancient_ruins.literium_armor_boots": "Literium Boots",
   "item.ancient_ruins.literium_pickaxe": "Literium Pickaxe",
   "block.ancient_ruins.farel_ore": "Farel Ore",
-  "item.ancient_ruins.test_sword": "Test Sword",
+  "item.ancient_ruins.test_sword": "Ancient Sword",
   "item.ancient_ruins.literiumingot": "Literiumingot",
   "item.ancient_ruins.glitchitem": "Glitch"
 }
