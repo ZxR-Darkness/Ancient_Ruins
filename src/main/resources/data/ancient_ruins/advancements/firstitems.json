@@ -1,14 +1,13 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
     "icon": {
-      "item": "ancient_ruins:literium_ore"
+      "item": "ancient_ruins:ancient_remains"
     },
     "title": {
-      "translate": "advancements.startmod.title"
+      "translate": "advancements.firstitems.title"
     },
     "description": {
-      "translate": "advancements.startmod.descr"
+      "translate": "advancements.firstitems.descr"
     },
     "frame": "task",
     "show_toast": true,
@@ -16,13 +15,13 @@
     "hidden": false
   },
   "criteria": {
-    "startmod": {
+    "firstitems": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "ancient_ruins:literium_ore"
+              "ancient_ruins:ancient_remains"
             ],
             "count": {
               "min": 1,
@@ -34,6 +33,7 @@
     }
   },
   "rewards": {
-    "experience": 100
-  }
+    "experience": 500
+  },
+  "parent": "ancient_ruins:startmod"
 }

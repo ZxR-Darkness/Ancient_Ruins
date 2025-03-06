@@ -5,7 +5,7 @@
     "achievementName": "Welcome AR",
     "achievementDescription": "join mod",
     "achievementIcon": {
-      "value": "CUSTOM:FareloreItem"
+      "value": "CUSTOM:LiteriumOre"
     },
     "background": "Default",
     "disableDisplay": false,
