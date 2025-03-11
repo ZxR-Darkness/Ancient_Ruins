@@ -38,6 +38,7 @@ import net.mcreator.ancientruins.init.AncientRuinsModItems;
 import net.mcreator.ancientruins.init.AncientRuinsModFeatures;
 import net.mcreator.ancientruins.init.AncientRuinsModEntities;
 import net.mcreator.ancientruins.init.AncientRuinsModBlocks;
+import net.mcreator.ancientruins.init.AncientRuinsModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -65,6 +66,8 @@ public class AncientRuinsMod {
 		AncientRuinsModFeatures.REGISTRY.register(bus);
 
 		AncientRuinsModPaintings.REGISTRY.register(bus);
+
+		AncientRuinsModBiomes.REGISTRY.register(bus);
 
 		GeckoLib.initialize();
 	}

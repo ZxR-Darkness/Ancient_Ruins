@@ -26,7 +26,7 @@ public class AncientPortalsDimension {
 
 				@Override
 				public boolean isFoggyAt(int x, int y) {
-					return false;
+					return true;
 				}
 			};
 			event.enqueueWork(() -> DimensionSpecialEffects.EFFECTS.put(new ResourceLocation("ancient_ruins:ancient_portals"), customEffect));

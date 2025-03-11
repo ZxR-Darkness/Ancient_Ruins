@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "grass_block_side",
+        "1": "grass_block_top"
+      },
+      "name": "default"
+    }
+  }
+}

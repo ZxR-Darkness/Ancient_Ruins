@@ -60,6 +60,7 @@ public class AncientRuinsModItems {
 	public static final RegistryObject<Item> FAREL_ORE = block(AncientRuinsModBlocks.FAREL_ORE, AncientRuinsModTabs.TAB_DRIEVNIIE_RUINY);
 	public static final RegistryObject<Item> FARELORE_ITEM = REGISTRY.register("farelore_item", () -> new FareloreItemItem());
 	public static final RegistryObject<Item> ASOULFRAGMENT = REGISTRY.register("asoulfragment", () -> new AsoulfragmentItem());
+	public static final RegistryObject<Item> GRASSBLOCK = block(AncientRuinsModBlocks.GRASSBLOCK, AncientRuinsModTabs.TAB_DRIEVNIIE_RUINY);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

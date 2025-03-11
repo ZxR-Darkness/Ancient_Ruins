@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.ancientruins.block.LiteruimOreBlock;
+import net.mcreator.ancientruins.block.GrassblockBlock;
 import net.mcreator.ancientruins.block.FoundryBlock;
 import net.mcreator.ancientruins.block.FarelOreBlock;
 import net.mcreator.ancientruins.block.BlockesBlock;
@@ -26,4 +27,5 @@ public class AncientRuinsModBlocks {
 	public static final RegistryObject<Block> BLOCK_PORTAL = REGISTRY.register("block_portal", () -> new BlockPortalBlock());
 	public static final RegistryObject<Block> ANCIENT_PORTALS_PORTAL = REGISTRY.register("ancient_portals_portal", () -> new AncientPortalsPortalBlock());
 	public static final RegistryObject<Block> FAREL_ORE = REGISTRY.register("farel_ore", () -> new FarelOreBlock());
+	public static final RegistryObject<Block> GRASSBLOCK = REGISTRY.register("grassblock", () -> new GrassblockBlock());
 }

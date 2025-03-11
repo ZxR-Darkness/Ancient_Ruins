@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "minecraft:stone"
+    "minecraft:stone",
+    "ancient_ruins:grassblock",
+    "minecraft:dirt"
   ]
 }

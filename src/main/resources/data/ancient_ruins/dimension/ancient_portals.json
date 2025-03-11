@@ -6,7 +6,7 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "dark_forest",
+          "biome": "ancient_ruins:ruins_world",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
@@ -173,7 +173,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "dark_forest"
+                "ancient_ruins:ruins_world"
               ]
             },
             "then_run": {
@@ -202,17 +202,14 @@
                         "then_run": {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:grass_block",
-                            "Properties": {
-                              "snowy": "false"
-                            }
+                            "Name": "ancient_ruins:grassblock"
                           }
                         }
                       },
                       {
                         "type": "minecraft:block",
                         "result_state": {
-                          "Name": "minecraft:gravel"
+                          "Name": "minecraft:dirt"
                         }
                       }
                     ]

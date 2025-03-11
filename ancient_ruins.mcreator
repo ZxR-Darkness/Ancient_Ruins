@@ -711,6 +711,36 @@
         ]
       },
       "path": "~/gags"
+    },
+    {
+      "name": "Grassblock",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grassblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancient_ruins/models/block/grassblock.json",
+          "src/main/resources/assets/ancient_ruins/models/item/grassblock.json",
+          "src/main/java/net/mcreator/ancientruins/block/GrassblockBlock.java",
+          "src/main/resources/assets/ancient_ruins/blockstates/grassblock.json"
+        ]
+      },
+      "path": "~/New_World/Blocks"
+    },
+    {
+      "name": "RuinsWORLD",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruins_world",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/world/biome/RuinsWORLDBiome.java"
+        ]
+      },
+      "path": "~/New_World/Blocks_Portal"
     }
   ],
   "variable_elements": [],
@@ -731,23 +761,25 @@
       "advancements.startmod.descr": "Это Начало?",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
       "item.ancient_ruins.literium_armor_leggings": "Поножи Из Литериума",
-      "block.ancient_ruins.blockes": "Центральное Ядро",
-      "item.ancient_ruins.literium_armor_helmet": "Шлем Из Литериума",
       "advancements.startmod.title": "Добро пожаловать в AR",
+      "item.ancient_ruins.literium_armor_helmet": "Шлем Из Литериума",
+      "block.ancient_ruins.blockes": "Центральное Ядро",
       "item.ancient_ruins.morgen.desc": "morgenstern",
       "entity.ancient_ruins.ancient_rat": "Древния Крыса",
       "item.ancient_ruins.literium_ore": "Рудный Литериум",
       "block.ancient_ruins.literuim_ore": "Блок Руды Литериум",
       "item.ancient_ruins.eye": "Глаз Существа",
       "item.ancient_ruins.asoulfragment": "Осколок Души",
+      "block.ancient_ruins.grassblock": "Grassblock",
+      "biome.ancient_ruins.ruins_world": "Ruins WORLD",
       "item.ancient_ruins.ancient_remains": "Древние Останки",
       "item.ancient_ruins.steelitem": "Стальной Слиток",
-      "item.ancient_ruins.literium_shovel": "литериумная лопота",
+      "item.ancient_ruins.literium_shovel": "Литериумная Лопота",
       "advancements.firstitems.title": "Фрагменты Старого Мира",
       "item.ancient_ruins.literium_axe": "Топор Из Литериума",
       "subtitles.gags": "",
       "block.ancient_ruins.block_portal": "Блок Портала",
-      "advancements.firstitems.descr": "найти древние фрагменты",
+      "advancements.firstitems.descr": "Найти Древние Фрагменты",
       "item.ancient_ruins.morgen": "NIGGERS",
       "item.ancient_ruins.farelore_item": "Рудный Фарэл",
       "item.ancient_ruins.literium_armor_chestplate": "Нагрудник Из Литериума",
@@ -764,17 +796,19 @@
       "item.ancient_ruins.ancient_portals": "Portal Igniter",
       "item.ancient_ruins.ancient_rat_spawn_egg": "Ancient Rat Spawn Egg",
       "advancements.startmod.descr": "join mod",
-      "itemGroup.tabdrievniie_ruiny": "Древние Руины",
+      "itemGroup.tabdrievniie_ruiny": "Ancient Ruins",
       "item.ancient_ruins.literium_armor_leggings": "Literium Leggings",
-      "advancements.startmod.title": "Welcome AR",
-      "block.ancient_ruins.blockes": "Core",
       "item.ancient_ruins.literium_armor_helmet": "Literium Helmet",
+      "block.ancient_ruins.blockes": "Core",
+      "advancements.startmod.title": "Welcome AR",
       "item.ancient_ruins.morgen.desc": "morgenstern black man",
       "entity.ancient_ruins.ancient_rat": "Ancient Rat",
       "item.ancient_ruins.literium_ore": "Literium Ore",
       "block.ancient_ruins.literuim_ore": "Literuim Ore",
       "item.ancient_ruins.eye": "Eye",
-      "item.ancient_ruins.asoulfragment": "soul fragment",
+      "item.ancient_ruins.asoulfragment": "Soul Fragment",
+      "block.ancient_ruins.grassblock": "Grassblock",
+      "biome.ancient_ruins.ruins_world": "Ruins WORLD",
       "item.ancient_ruins.ancient_remains": "Ancient Remains",
       "item.ancient_ruins.steelitem": "Steel ingot",
       "item.ancient_ruins.literium_shovel": "Literium Shovel",

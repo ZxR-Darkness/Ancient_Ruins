@@ -1,0 +1,10 @@
+{
+  "parent": "ancient_ruins:custom/grass",
+  "textures": {
+    "all": "ancient_ruins:blocks/grass_block_down",
+    "particle": "ancient_ruins:blocks/grass_block_down",
+    "0": "ancient_ruins:blocks/grass_block_side",
+    "1": "ancient_ruins:blocks/grass_block_top"
+  },
+  "render_type": "solid"
+}
