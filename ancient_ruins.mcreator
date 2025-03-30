@@ -486,16 +486,16 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/ancientruins/world/teleporter/AncientPortalsTeleporter.java",
-          "src/main/java/net/mcreator/ancientruins/world/teleporter/AncientPortalsPortalShape.java",
-          "src/main/java/net/mcreator/ancientruins/item/AncientPortalsItem.java",
-          "src/main/resources/assets/ancient_ruins/blockstates/ancient_portals_portal.json",
-          "src/main/resources/assets/ancient_ruins/models/block/ancient_portals_portal_ew.json",
-          "src/main/resources/assets/ancient_ruins/models/block/ancient_portals_portal_ns.json",
-          "src/main/resources/assets/ancient_ruins/models/item/ancient_portals.json",
-          "src/main/resources/data/ancient_ruins/dimension_type/ancient_portals.json",
-          "src/main/resources/data/ancient_ruins/dimension/ancient_portals.json",
           "src/main/java/net/mcreator/ancientruins/block/AncientPortalsPortalBlock.java",
-          "src/main/java/net/mcreator/ancientruins/world/dimension/AncientPortalsDimension.java"
+          "src/main/resources/assets/ancient_ruins/models/block/ancient_portals_portal_ns.json",
+          "src/main/resources/assets/ancient_ruins/models/block/ancient_portals_portal_ew.json",
+          "src/main/java/net/mcreator/ancientruins/world/teleporter/AncientPortalsPortalShape.java",
+          "src/main/resources/data/ancient_ruins/dimension_type/ancient_portals.json",
+          "src/main/java/net/mcreator/ancientruins/world/dimension/AncientPortalsDimension.java",
+          "src/main/resources/data/ancient_ruins/dimension/ancient_portals.json",
+          "src/main/resources/assets/ancient_ruins/blockstates/ancient_portals_portal.json",
+          "src/main/java/net/mcreator/ancientruins/item/AncientPortalsItem.java",
+          "src/main/resources/assets/ancient_ruins/models/item/ancient_portals.json"
         ]
       },
       "path": "~/New_World/Blocks_Portal"
@@ -732,12 +732,27 @@
     {
       "name": "RuinsWORLD",
       "type": "biome",
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruins_world",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/ancientruins/world/biome/RuinsWORLDBiome.java"
+        ]
+      },
+      "path": "~/New_World/Blocks_Portal"
+    },
+    {
+      "name": "DeadBiom",
+      "type": "biome",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_biom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/world/biome/DeadBiomBiome.java"
         ]
       },
       "path": "~/New_World/Blocks_Portal"
@@ -761,9 +776,9 @@
       "advancements.startmod.descr": "Это Начало?",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
       "item.ancient_ruins.literium_armor_leggings": "Поножи Из Литериума",
-      "block.ancient_ruins.blockes": "Центральное Ядро",
-      "item.ancient_ruins.literium_armor_helmet": "Шлем Из Литериума",
       "advancements.startmod.title": "Добро пожаловать в AR",
+      "item.ancient_ruins.literium_armor_helmet": "Шлем Из Литериума",
+      "block.ancient_ruins.blockes": "Центральное Ядро",
       "item.ancient_ruins.morgen.desc": "morgenstern",
       "entity.ancient_ruins.ancient_rat": "Древния Крыса",
       "item.ancient_ruins.literium_ore": "Рудный Литериум",
@@ -788,6 +803,7 @@
       "item.ancient_ruins.literium_armor_boots": "Ботинки Из Литериума",
       "item.ancient_ruins.literium_pickaxe": "Кирка Из Литериума",
       "block.ancient_ruins.farel_ore": "Блок Руды Фарэл",
+      "biome.ancient_ruins.dead_biom": "Dead Biom",
       "item.ancient_ruins.test_sword": "Древний Меч",
       "item.ancient_ruins.literiumingot": "Слиок Литериума",
       "item.ancient_ruins.glitchitem": "Глитч"
@@ -798,9 +814,9 @@
       "advancements.startmod.descr": "join mod",
       "itemGroup.tabdrievniie_ruiny": "Ancient Ruins",
       "item.ancient_ruins.literium_armor_leggings": "Literium Leggings",
-      "advancements.startmod.title": "Welcome AR",
-      "block.ancient_ruins.blockes": "Core",
       "item.ancient_ruins.literium_armor_helmet": "Literium Helmet",
+      "block.ancient_ruins.blockes": "Core",
+      "advancements.startmod.title": "Welcome AR",
       "item.ancient_ruins.morgen.desc": "morgenstern black man",
       "entity.ancient_ruins.ancient_rat": "Ancient Rat",
       "item.ancient_ruins.literium_ore": "Literium Ore",
@@ -825,6 +841,7 @@
       "item.ancient_ruins.literium_armor_boots": "Literium Boots",
       "item.ancient_ruins.literium_pickaxe": "Literium Pickaxe",
       "block.ancient_ruins.farel_ore": "Farel Ore",
+      "biome.ancient_ruins.dead_biom": "Dead Biom",
       "item.ancient_ruins.test_sword": "Ancient Sword",
       "item.ancient_ruins.literiumingot": "Literiumingot",
       "item.ancient_ruins.glitchitem": "Glitch"
@@ -904,7 +921,7 @@
   "workspaceSettings": {
     "modid": "ancient_ruins",
     "modName": "ancient ruins",
-    "version": "0.1.3-beta",
+    "version": "0.1.4-beta",
     "description": "добавляет дрвение руины, мобов, предметы, структуры.",
     "author": "OS TEAM",
     "websiteURL": "https://github.com/ZxR-Darki",

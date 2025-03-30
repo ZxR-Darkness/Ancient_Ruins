@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "minecraft:stone",
+    "minecraft:grass_block",
     "ancient_ruins:grassblock",
     "minecraft:dirt"
   ]

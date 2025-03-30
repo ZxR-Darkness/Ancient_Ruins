@@ -32,6 +32,7 @@ import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 
 import net.mcreator.ancientruins.world.biome.RuinsWORLDBiome;
+import net.mcreator.ancientruins.world.biome.DeadBiomBiome;
 import net.mcreator.ancientruins.AncientRuinsMod;
 
 import java.util.Map;
@@ -45,6 +46,7 @@ import com.google.common.base.Suppliers;
 @Mod.EventBusSubscriber
 public class AncientRuinsModBiomes {
 	public static final DeferredRegister<Biome> REGISTRY = DeferredRegister.create(ForgeRegistries.BIOMES, AncientRuinsMod.MODID);
+	public static final RegistryObject<Biome> DEAD_BIOM = REGISTRY.register("dead_biom", DeadBiomBiome::createBiome);
 	public static final RegistryObject<Biome> RUINS_WORLD = REGISTRY.register("ruins_world", RuinsWORLDBiome::createBiome);
 
 	@SubscribeEvent
@@ -60,8 +62,8 @@ public class AncientRuinsModBiomes {
 				// Inject biomes to biome source
 				if (chunkGenerator.getBiomeSource() instanceof MultiNoiseBiomeSource noiseSource) {
 					List<Pair<Climate.ParameterPoint, Holder<Biome>>> parameters = new ArrayList<>(noiseSource.parameters.values());
-					for (Climate.ParameterPoint parameterPoint : RuinsWORLDBiome.PARAMETER_POINTS) {
-						parameters.add(new Pair<>(parameterPoint, biomeRegistry.getOrCreateHolderOrThrow(ResourceKey.create(Registry.BIOME_REGISTRY, RUINS_WORLD.getId()))));
+					for (Climate.ParameterPoint parameterPoint : DeadBiomBiome.PARAMETER_POINTS) {
+						parameters.add(new Pair<>(parameterPoint, biomeRegistry.getOrCreateHolderOrThrow(ResourceKey.create(Registry.BIOME_REGISTRY, DEAD_BIOM.getId()))));
 					}
 
 					chunkGenerator.biomeSource = new MultiNoiseBiomeSource(new Climate.ParameterList<>(parameters), noiseSource.preset);
@@ -74,8 +76,7 @@ public class AncientRuinsModBiomes {
 					SurfaceRules.RuleSource currentRuleSource = noiseGeneratorSettings.surfaceRule();
 					if (currentRuleSource instanceof SurfaceRules.SequenceRuleSource sequenceRuleSource) {
 						List<SurfaceRules.RuleSource> surfaceRules = new ArrayList<>(sequenceRuleSource.sequence());
-						surfaceRules.add(1,
-								preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, RUINS_WORLD.getId()), AncientRuinsModBlocks.GRASSBLOCK.get().defaultBlockState(), Blocks.DIRT.defaultBlockState(), Blocks.DIRT.defaultBlockState()));
+						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, DEAD_BIOM.getId()), Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.STONE.defaultBlockState(), Blocks.GRAVEL.defaultBlockState()));
 						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(), noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 								noiseGeneratorSettings.noiseRouter(), SurfaceRules.sequence(surfaceRules.toArray(SurfaceRules.RuleSource[]::new)), noiseGeneratorSettings.spawnTarget(), noiseGeneratorSettings.seaLevel(),
 								noiseGeneratorSettings.disableMobGeneration(), noiseGeneratorSettings.aquifersEnabled(), noiseGeneratorSettings.oreVeinsEnabled(), noiseGeneratorSettings.useLegacyRandomSource());
