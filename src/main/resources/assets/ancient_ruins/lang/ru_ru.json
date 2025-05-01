@@ -4,9 +4,9 @@
   "advancements.startmod.descr": "Это Начало?",
   "itemGroup.tabdrievniie_ruiny": "Древние Руины",
   "item.ancient_ruins.literium_armor_leggings": "Поножи Из Литериума",
-  "advancements.startmod.title": "Добро пожаловать в AR",
-  "item.ancient_ruins.literium_armor_helmet": "Шлем Из Литериума",
   "block.ancient_ruins.blockes": "Центральное Ядро",
+  "item.ancient_ruins.literium_armor_helmet": "Шлем Из Литериума",
+  "advancements.startmod.title": "Добро пожаловать в AR",
   "item.ancient_ruins.morgen.desc": "morgenstern",
   "entity.ancient_ruins.ancient_rat": "Древния Крыса",
   "item.ancient_ruins.literium_ore": "Рудный Литериум",
@@ -32,7 +32,7 @@
   "item.ancient_ruins.literium_pickaxe": "Кирка Из Литериума",
   "block.ancient_ruins.farel_ore": "Блок Руды Фарэл",
   "biome.ancient_ruins.dead_biom": "Dead Biom",
-  "item.ancient_ruins.test_sword": "Древний Меч",
+  "item.ancient_ruins.test_sword": "Test Sword",
   "item.ancient_ruins.literiumingot": "Слиок Литериума",
   "item.ancient_ruins.glitchitem": "Глитч"
 }
