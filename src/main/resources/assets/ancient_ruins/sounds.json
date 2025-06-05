@@ -6,5 +6,21 @@
         "stream": true
       }
     ]
+  },
+  "steel_audio": {
+    "sounds": [
+      {
+        "name": "ancient_ruins:steel_brones",
+        "stream": false
+      }
+    ]
+  },
+  "literium_audio": {
+    "sounds": [
+      {
+        "name": "ancient_ruins:portal_fir",
+        "stream": false
+      }
+    ]
   }
 }

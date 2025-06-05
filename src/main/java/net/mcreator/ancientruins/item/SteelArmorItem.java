@@ -16,37 +16,37 @@ import net.minecraft.resources.ResourceLocation;
 import net.mcreator.ancientruins.init.AncientRuinsModTabs;
 import net.mcreator.ancientruins.init.AncientRuinsModItems;
 
-public abstract class LiteriumArmorItem extends ArmorItem {
-	public LiteriumArmorItem(EquipmentSlot slot, Item.Properties properties) {
+public abstract class SteelArmorItem extends ArmorItem {
+	public SteelArmorItem(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 30;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 15;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{4, 12, 10, 4}[slot.getIndex()];
+				return new int[]{2, 5, 4, 2}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantmentValue() {
-				return 18;
+				return 13;
 			}
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ancient_ruins:literium_audio"));
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ancient_ruins:steel_audio"));
 			}
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(AncientRuinsModItems.LITERIUMINGOT.get()));
+				return Ingredient.of(new ItemStack(AncientRuinsModItems.STEELITEM.get()));
 			}
 
 			@Override
 			public String getName() {
-				return "literium_armor";
+				return "steel_armor";
 			}
 
 			@Override
@@ -61,47 +61,47 @@ public abstract class LiteriumArmorItem extends ArmorItem {
 		}, slot, properties);
 	}
 
-	public static class Helmet extends LiteriumArmorItem {
+	public static class Helmet extends SteelArmorItem {
 		public Helmet() {
 			super(EquipmentSlot.HEAD, new Item.Properties().tab(AncientRuinsModTabs.TAB_DRIEVNIIE_RUINY));
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "ancient_ruins:textures/models/armor/literium_layer_1.png";
+			return "ancient_ruins:textures/models/armor/steel_layer_1.png";
 		}
 	}
 
-	public static class Chestplate extends LiteriumArmorItem {
+	public static class Chestplate extends SteelArmorItem {
 		public Chestplate() {
 			super(EquipmentSlot.CHEST, new Item.Properties().tab(AncientRuinsModTabs.TAB_DRIEVNIIE_RUINY));
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "ancient_ruins:textures/models/armor/literium_layer_1.png";
+			return "ancient_ruins:textures/models/armor/steel_layer_1.png";
 		}
 	}
 
-	public static class Leggings extends LiteriumArmorItem {
+	public static class Leggings extends SteelArmorItem {
 		public Leggings() {
 			super(EquipmentSlot.LEGS, new Item.Properties().tab(AncientRuinsModTabs.TAB_DRIEVNIIE_RUINY));
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "ancient_ruins:textures/models/armor/literium_layer_2.png";
+			return "ancient_ruins:textures/models/armor/steel_layer_2.png";
 		}
 	}
 
-	public static class Boots extends LiteriumArmorItem {
+	public static class Boots extends SteelArmorItem {
 		public Boots() {
 			super(EquipmentSlot.FEET, new Item.Properties().tab(AncientRuinsModTabs.TAB_DRIEVNIIE_RUINY));
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "ancient_ruins:textures/models/armor/literium_layer_1.png";
+			return "ancient_ruins:textures/models/armor/steel_layer_1.png";
 		}
 	}
 }

@@ -69,7 +69,7 @@
       "aquifers_enabled": false,
       "ore_veins_enabled": false,
       "default_block": {
-        "Name": "minecraft:stone"
+        "Name": "ancient_ruins:stone_ruins"
       },
       "default_fluid": {
         "Name": "minecraft:water",
@@ -348,7 +348,7 @@
           {
             "type": "minecraft:block",
             "result_state": {
-              "Name": "minecraft:stone"
+              "Name": "ancient_ruins:stone_ruins"
             }
           }
         ]

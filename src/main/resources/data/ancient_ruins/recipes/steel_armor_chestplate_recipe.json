@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ancient_ruins:steelitem"
+    },
+    "2": {
+      "item": "ancient_ruins:steelitem"
+    },
+    "3": {
+      "item": "ancient_ruins:steelitem"
+    },
+    "4": {
+      "item": "ancient_ruins:steelitem"
+    },
+    "5": {
+      "item": "ancient_ruins:steelitem"
+    },
+    "6": {
+      "item": "ancient_ruins:steelitem"
+    },
+    "7": {
+      "item": "ancient_ruins:steelitem"
+    },
+    "8": {
+      "item": "ancient_ruins:steelitem"
+    }
+  },
+  "result": {
+    "item": "ancient_ruins:steel_armor_chestplate",
+    "count": 1
+  }
+}
