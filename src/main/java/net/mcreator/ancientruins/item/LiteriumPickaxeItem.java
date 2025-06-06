@@ -1,7 +1,14 @@
 
 package net.mcreator.ancientruins.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+
+import net.mcreator.ancientruins.init.AncientRuinsModTabs;
+import net.mcreator.ancientruins.init.AncientRuinsModItems;
 
 public class LiteriumPickaxeItem extends PickaxeItem {
 	public LiteriumPickaxeItem() {
