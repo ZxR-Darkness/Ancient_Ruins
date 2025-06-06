@@ -10,6 +10,7 @@ import net.minecraftforge.event.TickEvent;
 import net.minecraft.client.renderer.ItemInHandRenderer;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.ancientruins.item.ShardliterItem;
 import net.mcreator.ancientruins.item.GlitchitemItem;
 
 import java.lang.reflect.Field;
@@ -51,11 +52,21 @@ public class ItemAnimationFactory {
 						animatable.animationprocedure = animation;
 						disableUseAnim();
 					}
+				if (event.player.getMainHandItem().getItem() instanceof ShardliterItem animatable)
+					if (event.player.level.isClientSide()) {
+						animatable.animationprocedure = animation;
+						disableUseAnim();
+					}
 			}
 			if (!event.player.getOffhandItem().getOrCreateTag().getString("geckoAnim").equals("") && !(event.player.getOffhandItem().getItem() instanceof GeoArmorItem)) {
 				animation = event.player.getOffhandItem().getOrCreateTag().getString("geckoAnim");
 				event.player.getOffhandItem().getOrCreateTag().putString("geckoAnim", "");
 				if (event.player.getOffhandItem().getItem() instanceof GlitchitemItem animatable)
+					if (event.player.level.isClientSide()) {
+						animatable.animationprocedure = animation;
+						disableUseAnim();
+					}
+				if (event.player.getOffhandItem().getItem() instanceof ShardliterItem animatable)
 					if (event.player.level.isClientSide()) {
 						animatable.animationprocedure = animation;
 						disableUseAnim();

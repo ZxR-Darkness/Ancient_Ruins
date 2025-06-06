@@ -847,6 +847,23 @@
         ]
       },
       "path": "~/Steel_Items"
+    },
+    {
+      "name": "Shardliter",
+      "type": "animateditem",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shardliter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/item/ShardliterItem.java",
+          "src/main/java/net/mcreator/ancientruins/item/renderer/ShardliterItemRenderer.java",
+          "src/main/java/net/mcreator/ancientruins/item/model/ShardliterItemModel.java",
+          "src/main/resources/assets/ancient_ruins/models/item/shardliter.json"
+        ]
+      },
+      "path": "~/New_World/Items"
     }
   ],
   "variable_elements": [],
@@ -880,6 +897,7 @@
     "ru_ru": {
       "item.ancient_ruins.ancient_portals": "поджигатель портала",
       "item.ancient_ruins.ancient_rat_spawn_egg": "Яйцо Спавна Дрения Крыса",
+      "item.ancient_ruins.shardliter": "Осколок",
       "advancements.startmod.descr": "Это Начало?",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
       "item.ancient_ruins.literium_armor_leggings": "Поножи Из Литериума",
@@ -890,22 +908,22 @@
       "item.ancient_ruins.morgen.desc": "morgenstern",
       "entity.ancient_ruins.ancient_rat": "Древния Крыса",
       "item.ancient_ruins.literium_ore": "Рудный Литериум",
-      "item.ancient_ruins.steel_armor_leggings": "Steel Leggings",
+      "item.ancient_ruins.steel_armor_leggings": "Стальные Штаны?",
       "block.ancient_ruins.literuim_ore": "Блок Руды Литериум",
       "item.ancient_ruins.eye": "Глаз Существа",
       "item.ancient_ruins.asoulfragment": "Осколок Души",
       "block.ancient_ruins.grassblock": "Блок Мертвой Травы",
       "biome.ancient_ruins.ruins_world": "Ruins WORLD",
       "item.ancient_ruins.ancient_remains": "Древние Останки",
-      "item.ancient_ruins.steel_armor_boots": "Steel Boots",
+      "item.ancient_ruins.steel_armor_boots": "Стальные Ботинки",
       "item.ancient_ruins.steelitem": "Стальной Слиток",
       "item.ancient_ruins.literium_shovel": "Литериумная Лопота",
       "advancements.firstitems.title": "Фрагменты Старого Мира",
-      "item.ancient_ruins.steel_armor_chestplate": "Steel Chestplate",
+      "item.ancient_ruins.steel_armor_chestplate": "Стальной Нагрудник",
       "item.ancient_ruins.literium_axe": "Топор Из Литериума",
       "subtitles.literium_audio": "",
       "subtitles.gags": "",
-      "item.ancient_ruins.steel_armor_helmet": "Steel Helmet",
+      "item.ancient_ruins.steel_armor_helmet": "Стальной Шлем",
       "block.ancient_ruins.block_portal": "Блок Портала",
       "advancements.firstitems.descr": "Найти Древние Фрагменты",
       "item.ancient_ruins.morgen": "NIGGERS",
@@ -920,11 +938,12 @@
       "item.ancient_ruins.test_sword": "Меч Из Литериума",
       "item.ancient_ruins.literiumingot": "Слиок Литериума",
       "item.ancient_ruins.glitchitem": "Глитч",
-      "block.ancient_ruins.stone_ruins": "Old Stone"
+      "block.ancient_ruins.stone_ruins": "Стариный Камень"
     },
     "en_us": {
       "item.ancient_ruins.ancient_portals": "Portal Igniter",
       "item.ancient_ruins.ancient_rat_spawn_egg": "Ancient Rat Spawn Egg",
+      "item.ancient_ruins.shardliter": "Shard",
       "advancements.startmod.descr": "join mod",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
       "item.ancient_ruins.literium_armor_leggings": "Literium Leggings",
