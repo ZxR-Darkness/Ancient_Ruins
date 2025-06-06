@@ -2,21 +2,18 @@
   "_fv": 43,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Smithing",
+    "recipeType": "Smelting",
     "recipeRetstackSize": 1,
     "group": "",
     "cookingBookCategory": "MISC",
-    "xpReward": 0.0,
-    "cookingTime": 200,
+    "xpReward": 1.0,
+    "cookingTime": 600,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "smithingInputStack": {
-      "value": "Items.COAL#0"
+    "smeltingInputStack": {
+      "value": "Items.IRON_INGOT"
     },
-    "smithingInputAdditionStack": {
-      "value": "Items.RAW_IRON"
-    },
-    "smithingReturnStack": {
+    "smeltingReturnStack": {
       "value": "CUSTOM:Steelitem"
     },
     "name": "steelcraft",

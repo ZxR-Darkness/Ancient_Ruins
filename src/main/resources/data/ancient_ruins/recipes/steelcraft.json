@@ -1,12 +1,9 @@
 {
-  "type": "minecraft:smithing",
-  "base": {
-    "item": "minecraft:coal"
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "minecraft:iron_ingot"
   },
-  "addition": {
-    "item": "minecraft:raw_iron"
-  },
-  "result": {
-    "item": "ancient_ruins:steelitem"
-  }
+  "result": "ancient_ruins:steelitem"
 }

@@ -162,7 +162,8 @@
           "src/main/java/net/mcreator/ancientruins/world/features/RuinFirstFeature.java",
           "src/main/resources/data/ancient_ruins/forge/biome_modifier/ruin_first_biome_modifier.json"
         ]
-      }
+      },
+      "path": "~/structures"
     },
     {
       "name": "AncientRemains",
@@ -869,6 +870,63 @@
         ]
       },
       "path": "~/New_World/Items"
+    },
+    {
+      "name": "AncientTunnel",
+      "type": "structure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_tunnel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/world/features/AncientTunnelFeature.java",
+          "src/main/resources/data/ancient_ruins/forge/biome_modifier/ancient_tunnel_biome_modifier.json"
+        ]
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "Eyegod",
+      "type": "achievement",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eyegod",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/advancements/eyegod.json"
+        ]
+      },
+      "path": "~/Dostigs"
+    },
+    {
+      "name": "Steel",
+      "type": "achievement",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/advancements/steel.json"
+        ]
+      },
+      "path": "~/Dostigs"
+    },
+    {
+      "name": "Literium",
+      "type": "achievement",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "literium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/advancements/literium.json"
+        ]
+      },
+      "path": "~/Dostigs"
     }
   ],
   "variable_elements": [],
@@ -903,93 +961,105 @@
       "item.ancient_ruins.ancient_portals": "поджигатель портала",
       "item.ancient_ruins.ancient_rat_spawn_egg": "Яйцо Спавна Дрения Крыса",
       "item.ancient_ruins.shardliter": "Осколок",
-      "advancements.startmod.descr": "Это Начало?",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
-      "item.ancient_ruins.literium_armor_leggings": "Поножи Из Литериума",
-      "advancements.startmod.title": "Добро пожаловать в AR",
-      "item.ancient_ruins.literium_armor_helmet": "Шлем Из Литериума",
       "block.ancient_ruins.blockes": "Центральное Ядро",
       "subtitles.steel_audio": "",
-      "item.ancient_ruins.morgen.desc": "morgenstern",
       "entity.ancient_ruins.ancient_rat": "Древния Крыса",
       "item.ancient_ruins.literium_ore": "Рудный Литериум",
-      "item.ancient_ruins.steel_armor_leggings": "Стальные Штаны?",
+      "advancements.steel.title": "That\u0027s the style!",
       "block.ancient_ruins.literuim_ore": "Блок Руды Литериум",
-      "item.ancient_ruins.eye": "Глаз Существа",
       "item.ancient_ruins.asoulfragment": "Осколок Души",
-      "block.ancient_ruins.grassblock": "Блок Мертвой Травы",
-      "biome.ancient_ruins.ruins_world": "Ruins WORLD",
       "item.ancient_ruins.ancient_remains": "Древние Останки",
-      "item.ancient_ruins.steel_armor_boots": "Стальные Ботинки",
       "item.ancient_ruins.steelitem": "Стальной Слиток",
-      "item.ancient_ruins.literium_shovel": "Литериумная Лопота",
       "advancements.firstitems.title": "Фрагменты Старого Мира",
       "item.ancient_ruins.steel_armor_chestplate": "Стальной Нагрудник",
       "item.ancient_ruins.literium_axe": "Топор Из Литериума",
       "subtitles.literium_audio": "",
-      "subtitles.gags": "",
-      "item.ancient_ruins.steel_armor_helmet": "Стальной Шлем",
+      "advancements.eyegod.descr": "Give Eye Entity",
       "block.ancient_ruins.block_portal": "Блок Портала",
-      "advancements.firstitems.descr": "Найти Древние Фрагменты",
-      "item.ancient_ruins.morgen": "NIGGERS",
       "item.ancient_ruins.farelore_item": "Рудный Фарэл",
       "item.ancient_ruins.literium_armor_chestplate": "Нагрудник Из Литериума",
       "block.ancient_ruins.foundry": "Фабрика",
-      "item.ancient_ruins.literium_hoe": "Дерьмо",
       "item.ancient_ruins.literium_armor_boots": "Ботинки Из Литериума",
-      "item.ancient_ruins.literium_pickaxe": "Кирка Из Литериума",
       "block.ancient_ruins.farel_ore": "Блок Руды Фарэл",
       "biome.ancient_ruins.dead_biom": "Dead Biom",
       "item.ancient_ruins.test_sword": "Меч Из Литериума",
       "item.ancient_ruins.literiumingot": "Слиок Литериума",
-      "item.ancient_ruins.glitchitem": "Глитч",
-      "block.ancient_ruins.stone_ruins": "Стариный Камень"
+      "block.ancient_ruins.stone_ruins": "Стариный Камень",
+      "advancements.literium.title": "A strange green thing",
+      "advancements.startmod.descr": "Это Начало?",
+      "item.ancient_ruins.literium_armor_leggings": "Поножи Из Литериума",
+      "advancements.literium.descr": "Wow, this is a Literium! Wait, what\u0027s he for?",
+      "item.ancient_ruins.literium_armor_helmet": "Шлем Из Литериума",
+      "advancements.startmod.title": "Добро пожаловать в AR",
+      "item.ancient_ruins.morgen.desc": "morgenstern",
+      "item.ancient_ruins.steel_armor_leggings": "Стальные Штаны?",
+      "item.ancient_ruins.eye": "Глаз Существа",
+      "block.ancient_ruins.grassblock": "Блок Мертвой Травы",
+      "biome.ancient_ruins.ruins_world": "Ruins WORLD",
+      "item.ancient_ruins.steel_armor_boots": "Стальные Ботинки",
+      "item.ancient_ruins.literium_shovel": "Литериумная Лопота",
+      "advancements.steel.descr": "Get the steel out of the furnace!",
+      "advancements.eyegod.title": "Eye?",
+      "subtitles.gags": "",
+      "item.ancient_ruins.steel_armor_helmet": "Стальной Шлем",
+      "advancements.firstitems.descr": "Найти Древние Фрагменты",
+      "item.ancient_ruins.morgen": "NIGGERS",
+      "item.ancient_ruins.literium_hoe": "Дерьмо",
+      "item.ancient_ruins.literium_pickaxe": "Кирка Из Литериума",
+      "item.ancient_ruins.glitchitem": "Глитч"
     },
     "en_us": {
       "item.ancient_ruins.ancient_portals": "Portal Igniter",
       "item.ancient_ruins.ancient_rat_spawn_egg": "Ancient Rat Spawn Egg",
       "item.ancient_ruins.shardliter": "Shard",
-      "advancements.startmod.descr": "join mod",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
-      "item.ancient_ruins.literium_armor_leggings": "Literium Leggings",
-      "advancements.startmod.title": "Welcome AR",
       "block.ancient_ruins.blockes": "Core",
-      "item.ancient_ruins.literium_armor_helmet": "Literium Helmet",
       "subtitles.steel_audio": "",
-      "item.ancient_ruins.morgen.desc": "morgenstern black man",
       "entity.ancient_ruins.ancient_rat": "Ancient Rat",
       "item.ancient_ruins.literium_ore": "Literium Ore",
-      "item.ancient_ruins.steel_armor_leggings": "Steel Leggings",
+      "advancements.steel.title": "That\u0027s the style!",
       "block.ancient_ruins.literuim_ore": "Literuim Ore",
-      "item.ancient_ruins.eye": "Eye",
       "item.ancient_ruins.asoulfragment": "soul fragment",
-      "block.ancient_ruins.grassblock": "Grassblock",
-      "biome.ancient_ruins.ruins_world": "Ruins WORLD",
       "item.ancient_ruins.ancient_remains": "Ancient Remains",
-      "item.ancient_ruins.steel_armor_boots": "Steel Boots",
       "item.ancient_ruins.steelitem": "Steel ingot",
-      "item.ancient_ruins.literium_shovel": "Literium Shovel",
       "advancements.firstitems.title": "a fragment of the old world",
       "item.ancient_ruins.steel_armor_chestplate": "Steel Chestplate",
       "item.ancient_ruins.literium_axe": "Literium Axe",
       "subtitles.literium_audio": "",
-      "subtitles.gags": "",
-      "item.ancient_ruins.steel_armor_helmet": "Steel Helmet",
+      "advancements.eyegod.descr": "Give Eye Entity",
       "block.ancient_ruins.block_portal": "Block Portal",
-      "advancements.firstitems.descr": "find ancient fragments",
-      "item.ancient_ruins.morgen": " BLACK RUSSIA BOY",
       "item.ancient_ruins.farelore_item": "Farel Ore",
       "item.ancient_ruins.literium_armor_chestplate": "Literium Chestplate",
       "block.ancient_ruins.foundry": "Foundry",
-      "item.ancient_ruins.literium_hoe": "Literium Hoe",
       "item.ancient_ruins.literium_armor_boots": "Literium Boots",
-      "item.ancient_ruins.literium_pickaxe": "Literium Pickaxe",
       "block.ancient_ruins.farel_ore": "Farel Ore",
       "biome.ancient_ruins.dead_biom": "Dead Biom",
       "item.ancient_ruins.test_sword": "Literium Sword",
       "item.ancient_ruins.literiumingot": "Literiumingot",
-      "item.ancient_ruins.glitchitem": "Glitch",
-      "block.ancient_ruins.stone_ruins": "Old Stone"
+      "block.ancient_ruins.stone_ruins": "Old Stone",
+      "advancements.literium.title": "A strange green thing",
+      "advancements.startmod.descr": "join mod",
+      "item.ancient_ruins.literium_armor_leggings": "Literium Leggings",
+      "advancements.literium.descr": "Wow, this is a Literium! Wait, what\u0027s he for?",
+      "item.ancient_ruins.literium_armor_helmet": "Literium Helmet",
+      "advancements.startmod.title": "Welcome AR",
+      "item.ancient_ruins.morgen.desc": "morgenstern black man",
+      "item.ancient_ruins.steel_armor_leggings": "Steel Leggings",
+      "item.ancient_ruins.eye": "Eye",
+      "block.ancient_ruins.grassblock": "Grassblock",
+      "biome.ancient_ruins.ruins_world": "Ruins WORLD",
+      "item.ancient_ruins.steel_armor_boots": "Steel Boots",
+      "item.ancient_ruins.literium_shovel": "Literium Shovel",
+      "advancements.steel.descr": "Get the steel out of the furnace!",
+      "advancements.eyegod.title": "Eye?",
+      "subtitles.gags": "",
+      "item.ancient_ruins.steel_armor_helmet": "Steel Helmet",
+      "advancements.firstitems.descr": "find ancient fragments",
+      "item.ancient_ruins.morgen": " BLACK RUSSIA BOY",
+      "item.ancient_ruins.literium_hoe": "Literium Hoe",
+      "item.ancient_ruins.literium_pickaxe": "Literium Pickaxe",
+      "item.ancient_ruins.glitchitem": "Glitch"
     }
   },
   "foldersRoot": {
@@ -1063,6 +1133,10 @@
       },
       {
         "name": "Steel_Items",
+        "children": []
+      },
+      {
+        "name": "structures",
         "children": []
       }
     ]

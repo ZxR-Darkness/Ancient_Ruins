@@ -1,13 +1,13 @@
 {
   "display": {
     "icon": {
-      "item": "ancient_ruins:ancient_remains"
+      "item": "ancient_ruins:eye"
     },
     "title": {
-      "translate": "advancements.firstitems.title"
+      "translate": "advancements.eyegod.title"
     },
     "description": {
-      "translate": "advancements.firstitems.descr"
+      "translate": "advancements.eyegod.descr"
     },
     "frame": "task",
     "show_toast": true,
@@ -15,13 +15,13 @@
     "hidden": false
   },
   "criteria": {
-    "firstitems": {
+    "eyegod": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "ancient_ruins:ancient_remains"
+              "ancient_ruins:eye"
             ],
             "count": {
               "min": 1,
@@ -33,7 +33,7 @@
     }
   },
   "rewards": {
-    "experience": 500
+    "experience": 200
   },
-  "parent": "ancient_ruins:literium"
+  "parent": "ancient_ruins:startmod"
 }

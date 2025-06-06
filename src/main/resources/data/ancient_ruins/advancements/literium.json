@@ -1,13 +1,13 @@
 {
   "display": {
     "icon": {
-      "item": "ancient_ruins:ancient_remains"
+      "item": "ancient_ruins:literiumingot"
     },
     "title": {
-      "translate": "advancements.firstitems.title"
+      "translate": "advancements.literium.title"
     },
     "description": {
-      "translate": "advancements.firstitems.descr"
+      "translate": "advancements.literium.descr"
     },
     "frame": "task",
     "show_toast": true,
@@ -15,13 +15,13 @@
     "hidden": false
   },
   "criteria": {
-    "firstitems": {
+    "literium": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "ancient_ruins:ancient_remains"
+              "ancient_ruins:literiumingot"
             ],
             "count": {
               "min": 1,
@@ -32,8 +32,5 @@
       }
     }
   },
-  "rewards": {
-    "experience": 500
-  },
-  "parent": "ancient_ruins:literium"
+  "parent": "ancient_ruins:steel"
 }
