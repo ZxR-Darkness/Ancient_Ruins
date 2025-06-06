@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "ancient_ruins:steelitem"
+    },
+    "1": {
+      "item": "ancient_ruins:steelitem"
+    },
+    "2": {
+      "item": "ancient_ruins:steelitem"
+    },
+    "3": {
+      "item": "ancient_ruins:steelitem"
+    },
+    "5": {
+      "item": "ancient_ruins:steelitem"
+    },
+    "6": {
+      "item": "ancient_ruins:steelitem"
+    },
+    "8": {
+      "item": "ancient_ruins:steelitem"
+    }
+  },
+  "result": {
+    "item": "ancient_ruins:steel_armor_leggings",
+    "count": 1
+  }
+}

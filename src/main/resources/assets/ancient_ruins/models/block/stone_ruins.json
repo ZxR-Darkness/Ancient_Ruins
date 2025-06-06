@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ancient_ruins:blocks/zaghruzhiennoie",
+    "up": "ancient_ruins:blocks/zaghruzhiennoie",
+    "north": "ancient_ruins:blocks/zaghruzhiennoie",
+    "east": "ancient_ruins:blocks/zaghruzhiennoie",
+    "south": "ancient_ruins:blocks/zaghruzhiennoie",
+    "west": "ancient_ruins:blocks/zaghruzhiennoie",
+    "particle": "ancient_ruins:blocks/zaghruzhiennoie"
+  },
+  "render_type": "solid"
+}

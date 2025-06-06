@@ -16,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.ancientruins.item.TestSwordItem;
 import net.mcreator.ancientruins.item.SteelitemItem;
+import net.mcreator.ancientruins.item.SteelArmorItem;
 import net.mcreator.ancientruins.item.MorgenItem;
 import net.mcreator.ancientruins.item.LiteriumingotItem;
 import net.mcreator.ancientruins.item.LiteriumShovelItem;
@@ -61,6 +62,11 @@ public class AncientRuinsModItems {
 	public static final RegistryObject<Item> FARELORE_ITEM = REGISTRY.register("farelore_item", () -> new FareloreItemItem());
 	public static final RegistryObject<Item> ASOULFRAGMENT = REGISTRY.register("asoulfragment", () -> new AsoulfragmentItem());
 	public static final RegistryObject<Item> GRASSBLOCK = block(AncientRuinsModBlocks.GRASSBLOCK, AncientRuinsModTabs.TAB_DRIEVNIIE_RUINY);
+	public static final RegistryObject<Item> STEEL_ARMOR_HELMET = REGISTRY.register("steel_armor_helmet", () -> new SteelArmorItem.Helmet());
+	public static final RegistryObject<Item> STEEL_ARMOR_CHESTPLATE = REGISTRY.register("steel_armor_chestplate", () -> new SteelArmorItem.Chestplate());
+	public static final RegistryObject<Item> STEEL_ARMOR_LEGGINGS = REGISTRY.register("steel_armor_leggings", () -> new SteelArmorItem.Leggings());
+	public static final RegistryObject<Item> STEEL_ARMOR_BOOTS = REGISTRY.register("steel_armor_boots", () -> new SteelArmorItem.Boots());
+	public static final RegistryObject<Item> STONE_RUINS = block(AncientRuinsModBlocks.STONE_RUINS, AncientRuinsModTabs.TAB_DRIEVNIIE_RUINY);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

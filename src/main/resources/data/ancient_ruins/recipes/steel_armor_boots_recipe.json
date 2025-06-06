@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ancient_ruins:steelitem"
+    },
+    "2": {
+      "item": "ancient_ruins:steelitem"
+    },
+    "3": {
+      "item": "ancient_ruins:steelitem"
+    },
+    "5": {
+      "item": "ancient_ruins:steelitem"
+    }
+  },
+  "result": {
+    "item": "ancient_ruins:steel_armor_boots",
+    "count": 1
+  }
+}

@@ -9,9 +9,9 @@
       "registry_name": "blockes",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ancient_ruins/models/block/blockes.json",
           "src/main/resources/assets/ancient_ruins/models/item/blockes.json",
           "src/main/java/net/mcreator/ancientruins/block/BlockesBlock.java",
+          "src/main/resources/assets/ancient_ruins/models/block/blockes.json",
           "src/main/resources/assets/ancient_ruins/blockstates/blockes.json"
         ]
       }
@@ -36,12 +36,12 @@
       "registry_name": "literuim_ore",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/ancientruins/world/features/ores/LiteruimOreFeature.java",
           "src/main/resources/assets/ancient_ruins/blockstates/literuim_ore.json",
           "src/main/resources/assets/ancient_ruins/models/block/literuim_ore.json",
-          "src/main/resources/data/ancient_ruins/forge/biome_modifier/literuim_ore_biome_modifier.json",
           "src/main/java/net/mcreator/ancientruins/block/LiteruimOreBlock.java",
-          "src/main/resources/assets/ancient_ruins/models/item/literuim_ore.json",
-          "src/main/java/net/mcreator/ancientruins/world/features/ores/LiteruimOreFeature.java"
+          "src/main/resources/data/ancient_ruins/forge/biome_modifier/literuim_ore_biome_modifier.json",
+          "src/main/resources/assets/ancient_ruins/models/item/literuim_ore.json"
         ]
       }
     },
@@ -54,8 +54,8 @@
       "registry_name": "literium_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/ancientruins/item/LiteriumOreItem.java",
-          "src/main/resources/assets/ancient_ruins/models/item/literium_ore.json"
+          "src/main/resources/assets/ancient_ruins/models/item/literium_ore.json",
+          "src/main/java/net/mcreator/ancientruins/item/LiteriumOreItem.java"
         ]
       }
     },
@@ -68,8 +68,8 @@
       "registry_name": "steelitem",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ancient_ruins/models/item/steelitem.json",
-          "src/main/java/net/mcreator/ancientruins/item/SteelitemItem.java"
+          "src/main/java/net/mcreator/ancientruins/item/SteelitemItem.java",
+          "src/main/resources/assets/ancient_ruins/models/item/steelitem.json"
         ]
       }
     },
@@ -128,8 +128,8 @@
       "registry_name": "eye",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ancient_ruins/models/item/eye.json",
-          "src/main/java/net/mcreator/ancientruins/item/EyeItem.java"
+          "src/main/java/net/mcreator/ancientruins/item/EyeItem.java",
+          "src/main/resources/assets/ancient_ruins/models/item/eye.json"
         ]
       }
     },
@@ -197,11 +197,11 @@
       "registry_name": "literium_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/ancientruins/item/LiteriumPickaxeItem.java",
-          "src/main/resources/assets/ancient_ruins/models/item/literium_pickaxe.json"
+          "src/main/resources/assets/ancient_ruins/models/item/literium_pickaxe.json",
+          "src/main/java/net/mcreator/ancientruins/item/LiteriumPickaxeItem.java"
         ]
       },
-      "path": "~/Instruments"
+      "path": "~/Literium_Items"
     },
     {
       "name": "LiteriumAxe",
@@ -212,11 +212,11 @@
       "registry_name": "literium_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ancient_ruins/models/item/literium_axe.json",
-          "src/main/java/net/mcreator/ancientruins/item/LiteriumAxeItem.java"
+          "src/main/java/net/mcreator/ancientruins/item/LiteriumAxeItem.java",
+          "src/main/resources/assets/ancient_ruins/models/item/literium_axe.json"
         ]
       },
-      "path": "~/Instruments"
+      "path": "~/Literium_Items"
     },
     {
       "name": "LiteriumShovel",
@@ -227,11 +227,11 @@
       "registry_name": "literium_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ancient_ruins/models/item/literium_shovel.json",
-          "src/main/java/net/mcreator/ancientruins/item/LiteriumShovelItem.java"
+          "src/main/java/net/mcreator/ancientruins/item/LiteriumShovelItem.java",
+          "src/main/resources/assets/ancient_ruins/models/item/literium_shovel.json"
         ]
       },
-      "path": "~/Instruments"
+      "path": "~/Literium_Items"
     },
     {
       "name": "LiteriumHoe",
@@ -242,11 +242,11 @@
       "registry_name": "literium_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ancient_ruins/models/item/literium_hoe.json",
-          "src/main/java/net/mcreator/ancientruins/item/LiteriumHoeItem.java"
+          "src/main/java/net/mcreator/ancientruins/item/LiteriumHoeItem.java",
+          "src/main/resources/assets/ancient_ruins/models/item/literium_hoe.json"
         ]
       },
-      "path": "~/Instruments"
+      "path": "~/Literium_Items"
     },
     {
       "name": "LiteriumPickaxeRecipe",
@@ -260,7 +260,7 @@
           "src/main/resources/data/ancient_ruins/recipes/literium_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Instruments"
+      "path": "~/Literium_Items"
     },
     {
       "name": "LiteriumAxeRecipe",
@@ -274,7 +274,7 @@
           "src/main/resources/data/ancient_ruins/recipes/literium_axe_recipe.json"
         ]
       },
-      "path": "~/Instruments"
+      "path": "~/Literium_Items"
     },
     {
       "name": "LiteriumShovelRecipe",
@@ -288,7 +288,7 @@
           "src/main/resources/data/ancient_ruins/recipes/literium_shovel_recipe.json"
         ]
       },
-      "path": "~/Instruments"
+      "path": "~/Literium_Items"
     },
     {
       "name": "LiteriumHoeRecipe",
@@ -302,7 +302,7 @@
           "src/main/resources/data/ancient_ruins/recipes/literium_hoe_recipe.json"
         ]
       },
-      "path": "~/Instruments"
+      "path": "~/Literium_Items"
     },
     {
       "name": "LiteriumArmor",
@@ -313,14 +313,14 @@
       "registry_name": "literium_armor",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/ancientruins/item/LiteriumArmorItem.java",
+          "src/main/resources/assets/ancient_ruins/models/item/literium_armor_helmet.json",
           "src/main/resources/assets/ancient_ruins/models/item/literium_armor_chestplate.json",
           "src/main/resources/assets/ancient_ruins/models/item/literium_armor_leggings.json",
-          "src/main/java/net/mcreator/ancientruins/item/LiteriumArmorItem.java",
-          "src/main/resources/assets/ancient_ruins/models/item/literium_armor_boots.json",
-          "src/main/resources/assets/ancient_ruins/models/item/literium_armor_helmet.json"
+          "src/main/resources/assets/ancient_ruins/models/item/literium_armor_boots.json"
         ]
       },
-      "path": "~/Instruments"
+      "path": "~/Literium_Items"
     },
     {
       "name": "LiteriumArmorHelmetRecipe",
@@ -334,7 +334,7 @@
           "src/main/resources/data/ancient_ruins/recipes/literium_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Instruments"
+      "path": "~/Literium_Items"
     },
     {
       "name": "LiteriumArmorChestplateRecipe",
@@ -348,7 +348,7 @@
           "src/main/resources/data/ancient_ruins/recipes/literium_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Instruments"
+      "path": "~/Literium_Items"
     },
     {
       "name": "LiteriumArmorLeggingsRecipe",
@@ -362,7 +362,7 @@
           "src/main/resources/data/ancient_ruins/recipes/literium_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Instruments"
+      "path": "~/Literium_Items"
     },
     {
       "name": "LiteriumArmorBootsRecipe",
@@ -376,7 +376,7 @@
           "src/main/resources/data/ancient_ruins/recipes/literium_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Instruments"
+      "path": "~/Literium_Items"
     },
     {
       "name": "TestSword",
@@ -387,11 +387,11 @@
       "registry_name": "test_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ancient_ruins/models/item/test_sword.json",
-          "src/main/java/net/mcreator/ancientruins/item/TestSwordItem.java"
+          "src/main/java/net/mcreator/ancientruins/item/TestSwordItem.java",
+          "src/main/resources/assets/ancient_ruins/models/item/test_sword.json"
         ]
       },
-      "path": "~/Instruments"
+      "path": "~/Literium_Items"
     },
     {
       "name": "TestSwordrecipe",
@@ -405,7 +405,7 @@
           "src/main/resources/data/ancient_ruins/recipes/test_swordrecipe.json"
         ]
       },
-      "path": "~/Instruments"
+      "path": "~/Literium_Items"
     },
     {
       "name": "AncientRat",
@@ -416,11 +416,11 @@
       "registry_name": "ancient_rat",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ancient_ruins/models/item/ancient_rat_spawn_egg.json",
           "src/main/java/net/mcreator/ancientruins/entity/AncientRatEntity.java",
+          "src/main/resources/data/ancient_ruins/forge/biome_modifier/ancient_rat_biome_modifier.json",
           "src/main/java/net/mcreator/ancientruins/client/renderer/AncientRatRenderer.java",
-          "src/main/java/net/mcreator/ancientruins/entity/model/AncientRatModel.java",
-          "src/main/resources/data/ancient_ruins/forge/biome_modifier/ancient_rat_biome_modifier.json"
+          "src/main/resources/assets/ancient_ruins/models/item/ancient_rat_spawn_egg.json",
+          "src/main/java/net/mcreator/ancientruins/entity/model/AncientRatModel.java"
         ]
       },
       "path": "~/Mobs"
@@ -434,10 +434,10 @@
       "registry_name": "glitchitem",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/ancientruins/item/GlitchitemItem.java",
-          "src/main/java/net/mcreator/ancientruins/item/model/GlitchitemItemModel.java",
+          "src/main/java/net/mcreator/ancientruins/item/renderer/GlitchitemItemRenderer.java",
           "src/main/resources/assets/ancient_ruins/models/item/glitchitem.json",
-          "src/main/java/net/mcreator/ancientruins/item/renderer/GlitchitemItemRenderer.java"
+          "src/main/java/net/mcreator/ancientruins/item/model/GlitchitemItemModel.java",
+          "src/main/java/net/mcreator/ancientruins/item/GlitchitemItem.java"
         ]
       },
       "path": "~/Mobs"
@@ -451,9 +451,9 @@
       "registry_name": "foundry",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ancient_ruins/models/block/foundry.json",
-          "src/main/resources/assets/ancient_ruins/blockstates/foundry.json",
           "src/main/resources/assets/ancient_ruins/models/item/foundry.json",
+          "src/main/resources/assets/ancient_ruins/blockstates/foundry.json",
+          "src/main/resources/assets/ancient_ruins/models/block/foundry.json",
           "src/main/java/net/mcreator/ancientruins/block/FoundryBlock.java"
         ]
       },
@@ -468,10 +468,10 @@
       "registry_name": "block_portal",
       "metadata": {
         "files": [
+          "src/main/resources/assets/ancient_ruins/models/item/block_portal.json",
           "src/main/resources/assets/ancient_ruins/blockstates/block_portal.json",
           "src/main/resources/assets/ancient_ruins/models/block/block_portal.json",
-          "src/main/java/net/mcreator/ancientruins/block/BlockPortalBlock.java",
-          "src/main/resources/assets/ancient_ruins/models/item/block_portal.json"
+          "src/main/java/net/mcreator/ancientruins/block/BlockPortalBlock.java"
         ]
       },
       "path": "~/New_World/Blocks_Portal"
@@ -485,17 +485,17 @@
       "registry_name": "ancient_portals",
       "metadata": {
         "files": [
-          "src/main/resources/data/ancient_ruins/dimension_type/ancient_portals.json",
-          "src/main/java/net/mcreator/ancientruins/item/AncientPortalsItem.java",
           "src/main/java/net/mcreator/ancientruins/block/AncientPortalsPortalBlock.java",
-          "src/main/resources/assets/ancient_ruins/models/block/ancient_portals_portal_ns.json",
+          "src/main/resources/data/ancient_ruins/dimension_type/ancient_portals.json",
           "src/main/java/net/mcreator/ancientruins/world/teleporter/AncientPortalsPortalShape.java",
-          "src/main/java/net/mcreator/ancientruins/world/dimension/AncientPortalsDimension.java",
+          "src/main/resources/assets/ancient_ruins/models/item/ancient_portals.json",
           "src/main/java/net/mcreator/ancientruins/world/teleporter/AncientPortalsTeleporter.java",
-          "src/main/resources/data/ancient_ruins/dimension/ancient_portals.json",
-          "src/main/resources/assets/ancient_ruins/blockstates/ancient_portals_portal.json",
           "src/main/resources/assets/ancient_ruins/models/block/ancient_portals_portal_ew.json",
-          "src/main/resources/assets/ancient_ruins/models/item/ancient_portals.json"
+          "src/main/resources/assets/ancient_ruins/blockstates/ancient_portals_portal.json",
+          "src/main/resources/assets/ancient_ruins/models/block/ancient_portals_portal_ns.json",
+          "src/main/java/net/mcreator/ancientruins/world/dimension/AncientPortalsDimension.java",
+          "src/main/java/net/mcreator/ancientruins/item/AncientPortalsItem.java",
+          "src/main/resources/data/ancient_ruins/dimension/ancient_portals.json"
         ]
       },
       "path": "~/New_World/Blocks_Portal"
@@ -563,12 +563,12 @@
       "registry_name": "farel_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/ancientruins/block/FarelOreBlock.java",
-          "src/main/resources/assets/ancient_ruins/blockstates/farel_ore.json",
+          "src/main/java/net/mcreator/ancientruins/world/features/ores/FarelOreFeature.java",
           "src/main/resources/assets/ancient_ruins/models/block/farel_ore.json",
-          "src/main/resources/data/ancient_ruins/forge/biome_modifier/farel_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/ancientruins/block/FarelOreBlock.java",
           "src/main/resources/assets/ancient_ruins/models/item/farel_ore.json",
-          "src/main/java/net/mcreator/ancientruins/world/features/ores/FarelOreFeature.java"
+          "src/main/resources/data/ancient_ruins/forge/biome_modifier/farel_ore_biome_modifier.json",
+          "src/main/resources/assets/ancient_ruins/blockstates/farel_ore.json"
         ]
       },
       "path": "~/Nether_Folder/Ores"
@@ -582,8 +582,8 @@
       "registry_name": "farelore_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/ancientruins/item/FareloreItemItem.java",
-          "src/main/resources/assets/ancient_ruins/models/item/farelore_item.json"
+          "src/main/resources/assets/ancient_ruins/models/item/farelore_item.json",
+          "src/main/java/net/mcreator/ancientruins/item/FareloreItemItem.java"
         ]
       },
       "path": "~/Nether_Folder/Ores"
@@ -659,8 +659,8 @@
       "registry_name": "asoulfragment",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ancient_ruins/models/item/asoulfragment.json",
-          "src/main/java/net/mcreator/ancientruins/item/AsoulfragmentItem.java"
+          "src/main/java/net/mcreator/ancientruins/item/AsoulfragmentItem.java",
+          "src/main/resources/assets/ancient_ruins/models/item/asoulfragment.json"
         ]
       },
       "path": "~/Legendary_Items"
@@ -721,10 +721,10 @@
       "registry_name": "grassblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ancient_ruins/blockstates/grassblock.json",
+          "src/main/resources/assets/ancient_ruins/models/block/grassblock.json",
           "src/main/java/net/mcreator/ancientruins/block/GrassblockBlock.java",
-          "src/main/resources/assets/ancient_ruins/models/item/grassblock.json",
-          "src/main/resources/assets/ancient_ruins/models/block/grassblock.json"
+          "src/main/resources/assets/ancient_ruins/blockstates/grassblock.json",
+          "src/main/resources/assets/ancient_ruins/models/item/grassblock.json"
         ]
       },
       "path": "~/New_World/Blocks"
@@ -756,6 +756,97 @@
         ]
       },
       "path": "~/New_World/Blocks_Portal"
+    },
+    {
+      "name": "SteelArmor",
+      "type": "armor",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancient_ruins/models/item/steel_armor_leggings.json",
+          "src/main/resources/assets/ancient_ruins/models/item/steel_armor_boots.json",
+          "src/main/java/net/mcreator/ancientruins/item/SteelArmorItem.java",
+          "src/main/resources/assets/ancient_ruins/models/item/steel_armor_helmet.json",
+          "src/main/resources/assets/ancient_ruins/models/item/steel_armor_chestplate.json"
+        ]
+      },
+      "path": "~/Steel_Items"
+    },
+    {
+      "name": "SteelArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/recipes/steel_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Steel_Items"
+    },
+    {
+      "name": "SteelArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/recipes/steel_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Steel_Items"
+    },
+    {
+      "name": "SteelArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/recipes/steel_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Steel_Items"
+    },
+    {
+      "name": "SteelArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/recipes/steel_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Steel_Items"
+    },
+    {
+      "name": "StoneRuins",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_ruins",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancient_ruins/models/block/stone_ruins.json",
+          "src/main/resources/assets/ancient_ruins/blockstates/stone_ruins.json",
+          "src/main/resources/assets/ancient_ruins/models/item/stone_ruins.json",
+          "src/main/java/net/mcreator/ancientruins/block/StoneRuinsBlock.java"
+        ]
+      },
+      "path": "~/New_World/Blocks"
     }
   ],
   "variable_elements": [],
@@ -767,6 +858,22 @@
       ],
       "category": "music",
       "subtitle": ""
+    },
+    {
+      "name": "steel_audio",
+      "files": [
+        "steel_brones"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "literium_audio",
+      "files": [
+        "portal_fir"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -776,23 +883,29 @@
       "advancements.startmod.descr": "Это Начало?",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
       "item.ancient_ruins.literium_armor_leggings": "Поножи Из Литериума",
-      "block.ancient_ruins.blockes": "Центральное Ядро",
-      "item.ancient_ruins.literium_armor_helmet": "Шлем Из Литериума",
       "advancements.startmod.title": "Добро пожаловать в AR",
+      "item.ancient_ruins.literium_armor_helmet": "Шлем Из Литериума",
+      "block.ancient_ruins.blockes": "Центральное Ядро",
+      "subtitles.steel_audio": "",
       "item.ancient_ruins.morgen.desc": "morgenstern",
       "entity.ancient_ruins.ancient_rat": "Древния Крыса",
       "item.ancient_ruins.literium_ore": "Рудный Литериум",
+      "item.ancient_ruins.steel_armor_leggings": "Steel Leggings",
       "block.ancient_ruins.literuim_ore": "Блок Руды Литериум",
       "item.ancient_ruins.eye": "Глаз Существа",
       "item.ancient_ruins.asoulfragment": "Осколок Души",
       "block.ancient_ruins.grassblock": "Блок Мертвой Травы",
       "biome.ancient_ruins.ruins_world": "Ruins WORLD",
       "item.ancient_ruins.ancient_remains": "Древние Останки",
+      "item.ancient_ruins.steel_armor_boots": "Steel Boots",
       "item.ancient_ruins.steelitem": "Стальной Слиток",
       "item.ancient_ruins.literium_shovel": "Литериумная Лопота",
       "advancements.firstitems.title": "Фрагменты Старого Мира",
+      "item.ancient_ruins.steel_armor_chestplate": "Steel Chestplate",
       "item.ancient_ruins.literium_axe": "Топор Из Литериума",
+      "subtitles.literium_audio": "",
       "subtitles.gags": "",
+      "item.ancient_ruins.steel_armor_helmet": "Steel Helmet",
       "block.ancient_ruins.block_portal": "Блок Портала",
       "advancements.firstitems.descr": "Найти Древние Фрагменты",
       "item.ancient_ruins.morgen": "NIGGERS",
@@ -804,9 +917,10 @@
       "item.ancient_ruins.literium_pickaxe": "Кирка Из Литериума",
       "block.ancient_ruins.farel_ore": "Блок Руды Фарэл",
       "biome.ancient_ruins.dead_biom": "Dead Biom",
-      "item.ancient_ruins.test_sword": "Test Sword",
+      "item.ancient_ruins.test_sword": "Меч Из Литериума",
       "item.ancient_ruins.literiumingot": "Слиок Литериума",
-      "item.ancient_ruins.glitchitem": "Глитч"
+      "item.ancient_ruins.glitchitem": "Глитч",
+      "block.ancient_ruins.stone_ruins": "Old Stone"
     },
     "en_us": {
       "item.ancient_ruins.ancient_portals": "Portal Igniter",
@@ -817,20 +931,26 @@
       "advancements.startmod.title": "Welcome AR",
       "block.ancient_ruins.blockes": "Core",
       "item.ancient_ruins.literium_armor_helmet": "Literium Helmet",
+      "subtitles.steel_audio": "",
       "item.ancient_ruins.morgen.desc": "morgenstern black man",
       "entity.ancient_ruins.ancient_rat": "Ancient Rat",
       "item.ancient_ruins.literium_ore": "Literium Ore",
+      "item.ancient_ruins.steel_armor_leggings": "Steel Leggings",
       "block.ancient_ruins.literuim_ore": "Literuim Ore",
       "item.ancient_ruins.eye": "Eye",
       "item.ancient_ruins.asoulfragment": "soul fragment",
       "block.ancient_ruins.grassblock": "Grassblock",
       "biome.ancient_ruins.ruins_world": "Ruins WORLD",
       "item.ancient_ruins.ancient_remains": "Ancient Remains",
+      "item.ancient_ruins.steel_armor_boots": "Steel Boots",
       "item.ancient_ruins.steelitem": "Steel ingot",
       "item.ancient_ruins.literium_shovel": "Literium Shovel",
       "advancements.firstitems.title": "a fragment of the old world",
+      "item.ancient_ruins.steel_armor_chestplate": "Steel Chestplate",
       "item.ancient_ruins.literium_axe": "Literium Axe",
+      "subtitles.literium_audio": "",
       "subtitles.gags": "",
+      "item.ancient_ruins.steel_armor_helmet": "Steel Helmet",
       "block.ancient_ruins.block_portal": "Block Portal",
       "advancements.firstitems.descr": "find ancient fragments",
       "item.ancient_ruins.morgen": " BLACK RUSSIA BOY",
@@ -844,7 +964,8 @@
       "biome.ancient_ruins.dead_biom": "Dead Biom",
       "item.ancient_ruins.test_sword": "Literium Sword",
       "item.ancient_ruins.literiumingot": "Literiumingot",
-      "item.ancient_ruins.glitchitem": "Glitch"
+      "item.ancient_ruins.glitchitem": "Glitch",
+      "block.ancient_ruins.stone_ruins": "Old Stone"
     }
   },
   "foldersRoot": {
@@ -859,7 +980,7 @@
         "children": []
       },
       {
-        "name": "Instruments",
+        "name": "Literium_Items",
         "children": []
       },
       {
@@ -914,6 +1035,10 @@
       },
       {
         "name": "Legendary_Items",
+        "children": []
+      },
+      {
+        "name": "Steel_Items",
         "children": []
       }
     ]

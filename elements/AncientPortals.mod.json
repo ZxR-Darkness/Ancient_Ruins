@@ -12,7 +12,7 @@
     ],
     "worldGenType": "Nether like gen",
     "mainFillerBlock": {
-      "value": "Blocks.STONE#0"
+      "value": "CUSTOM:StoneRuins"
     },
     "fluidBlock": {
       "value": "Blocks.FLOWING_WATER"
