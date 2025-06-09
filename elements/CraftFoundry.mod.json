@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Steelitem"
+        "value": "CUSTOM:LiteriumOre"
+      },
+      {
+        "value": "Blocks.COBBLESTONE_WALL#0"
       },
       {
         "value": "CUSTOM:LiteriumOre"
       },
       {
-        "value": ""
+        "value": "Blocks.STONEBRICK#0"
       },
       {
-        "value": ""
+        "value": "Items.IRON_INGOT"
       },
       {
-        "value": ""
+        "value": "Blocks.STONEBRICK#0"
       },
       {
-        "value": ""
+        "value": "Items.COPPER_INGOT"
       },
       {
-        "value": ""
+        "value": "Blocks.STONEBRICK#0"
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "Items.COPPER_INGOT"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Literiumingot"
+      "value": "CUSTOM:Foundry"
     },
-    "name": "craft_literium",
+    "name": "craft_foundry",
     "namespace": "mod"
   }
 }

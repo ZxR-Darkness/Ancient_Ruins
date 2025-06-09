@@ -34,6 +34,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.ancientruins.init.AncientRuinsModTabs;
 import net.mcreator.ancientruins.init.AncientRuinsModSounds;
 import net.mcreator.ancientruins.init.AncientRuinsModPaintings;
+import net.mcreator.ancientruins.init.AncientRuinsModMenus;
 import net.mcreator.ancientruins.init.AncientRuinsModItems;
 import net.mcreator.ancientruins.init.AncientRuinsModFeatures;
 import net.mcreator.ancientruins.init.AncientRuinsModEntities;
@@ -67,6 +68,7 @@ public class AncientRuinsMod {
 
 		AncientRuinsModPaintings.REGISTRY.register(bus);
 
+		AncientRuinsModMenus.REGISTRY.register(bus);
 		AncientRuinsModBiomes.REGISTRY.register(bus);
 
 		GeckoLib.initialize();

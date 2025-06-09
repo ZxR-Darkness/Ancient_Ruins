@@ -9,10 +9,10 @@
       "registry_name": "blockes",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ancient_ruins/models/item/blockes.json",
-          "src/main/java/net/mcreator/ancientruins/block/BlockesBlock.java",
+          "src/main/resources/assets/ancient_ruins/blockstates/blockes.json",
           "src/main/resources/assets/ancient_ruins/models/block/blockes.json",
-          "src/main/resources/assets/ancient_ruins/blockstates/blockes.json"
+          "src/main/resources/assets/ancient_ruins/models/item/blockes.json",
+          "src/main/java/net/mcreator/ancientruins/block/BlockesBlock.java"
         ]
       }
     },
@@ -37,11 +37,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/ancientruins/world/features/ores/LiteruimOreFeature.java",
-          "src/main/resources/assets/ancient_ruins/blockstates/literuim_ore.json",
+          "src/main/resources/assets/ancient_ruins/models/item/literuim_ore.json",
           "src/main/resources/assets/ancient_ruins/models/block/literuim_ore.json",
-          "src/main/java/net/mcreator/ancientruins/block/LiteruimOreBlock.java",
           "src/main/resources/data/ancient_ruins/forge/biome_modifier/literuim_ore_biome_modifier.json",
-          "src/main/resources/assets/ancient_ruins/models/item/literuim_ore.json"
+          "src/main/resources/assets/ancient_ruins/blockstates/literuim_ore.json",
+          "src/main/java/net/mcreator/ancientruins/block/LiteruimOreBlock.java"
         ]
       },
       "path": "~/Literium_Items"
@@ -70,8 +70,8 @@
       "registry_name": "steelitem",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/ancientruins/item/SteelitemItem.java",
-          "src/main/resources/assets/ancient_ruins/models/item/steelitem.json"
+          "src/main/resources/assets/ancient_ruins/models/item/steelitem.json",
+          "src/main/java/net/mcreator/ancientruins/item/SteelitemItem.java"
         ]
       },
       "path": "~/Steel_Items"
@@ -188,8 +188,8 @@
       "registry_name": "literiumingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ancient_ruins/models/item/literiumingot.json",
-          "src/main/java/net/mcreator/ancientruins/item/LiteriumingotItem.java"
+          "src/main/java/net/mcreator/ancientruins/item/LiteriumingotItem.java",
+          "src/main/resources/assets/ancient_ruins/models/item/literiumingot.json"
         ]
       },
       "path": "~/Literium_Items"
@@ -203,8 +203,8 @@
       "registry_name": "literium_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ancient_ruins/models/item/literium_pickaxe.json",
-          "src/main/java/net/mcreator/ancientruins/item/LiteriumPickaxeItem.java"
+          "src/main/java/net/mcreator/ancientruins/item/LiteriumPickaxeItem.java",
+          "src/main/resources/assets/ancient_ruins/models/item/literium_pickaxe.json"
         ]
       },
       "path": "~/Literium_Items"
@@ -218,8 +218,8 @@
       "registry_name": "literium_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/ancientruins/item/LiteriumAxeItem.java",
-          "src/main/resources/assets/ancient_ruins/models/item/literium_axe.json"
+          "src/main/resources/assets/ancient_ruins/models/item/literium_axe.json",
+          "src/main/java/net/mcreator/ancientruins/item/LiteriumAxeItem.java"
         ]
       },
       "path": "~/Literium_Items"
@@ -233,8 +233,8 @@
       "registry_name": "literium_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/ancientruins/item/LiteriumShovelItem.java",
-          "src/main/resources/assets/ancient_ruins/models/item/literium_shovel.json"
+          "src/main/resources/assets/ancient_ruins/models/item/literium_shovel.json",
+          "src/main/java/net/mcreator/ancientruins/item/LiteriumShovelItem.java"
         ]
       },
       "path": "~/Literium_Items"
@@ -248,8 +248,8 @@
       "registry_name": "literium_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/ancientruins/item/LiteriumHoeItem.java",
-          "src/main/resources/assets/ancient_ruins/models/item/literium_hoe.json"
+          "src/main/resources/assets/ancient_ruins/models/item/literium_hoe.json",
+          "src/main/java/net/mcreator/ancientruins/item/LiteriumHoeItem.java"
         ]
       },
       "path": "~/Literium_Items"
@@ -319,11 +319,11 @@
       "registry_name": "literium_armor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/ancientruins/item/LiteriumArmorItem.java",
-          "src/main/resources/assets/ancient_ruins/models/item/literium_armor_helmet.json",
-          "src/main/resources/assets/ancient_ruins/models/item/literium_armor_chestplate.json",
           "src/main/resources/assets/ancient_ruins/models/item/literium_armor_leggings.json",
-          "src/main/resources/assets/ancient_ruins/models/item/literium_armor_boots.json"
+          "src/main/resources/assets/ancient_ruins/models/item/literium_armor_helmet.json",
+          "src/main/resources/assets/ancient_ruins/models/item/literium_armor_boots.json",
+          "src/main/resources/assets/ancient_ruins/models/item/literium_armor_chestplate.json",
+          "src/main/java/net/mcreator/ancientruins/item/LiteriumArmorItem.java"
         ]
       },
       "path": "~/Literium_Items"
@@ -393,8 +393,8 @@
       "registry_name": "test_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/ancientruins/item/TestSwordItem.java",
-          "src/main/resources/assets/ancient_ruins/models/item/test_sword.json"
+          "src/main/resources/assets/ancient_ruins/models/item/test_sword.json",
+          "src/main/java/net/mcreator/ancientruins/item/TestSwordItem.java"
         ]
       },
       "path": "~/Literium_Items"
@@ -422,11 +422,11 @@
       "registry_name": "ancient_rat",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/ancientruins/entity/AncientRatEntity.java",
+          "src/main/resources/assets/ancient_ruins/models/item/ancient_rat_spawn_egg.json",
+          "src/main/java/net/mcreator/ancientruins/entity/model/AncientRatModel.java",
           "src/main/resources/data/ancient_ruins/forge/biome_modifier/ancient_rat_biome_modifier.json",
           "src/main/java/net/mcreator/ancientruins/client/renderer/AncientRatRenderer.java",
-          "src/main/resources/assets/ancient_ruins/models/item/ancient_rat_spawn_egg.json",
-          "src/main/java/net/mcreator/ancientruins/entity/model/AncientRatModel.java"
+          "src/main/java/net/mcreator/ancientruins/entity/AncientRatEntity.java"
         ]
       },
       "path": "~/Mobs"
@@ -440,10 +440,10 @@
       "registry_name": "glitchitem",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/ancientruins/item/GlitchitemItem.java",
           "src/main/java/net/mcreator/ancientruins/item/renderer/GlitchitemItemRenderer.java",
-          "src/main/resources/assets/ancient_ruins/models/item/glitchitem.json",
           "src/main/java/net/mcreator/ancientruins/item/model/GlitchitemItemModel.java",
-          "src/main/java/net/mcreator/ancientruins/item/GlitchitemItem.java"
+          "src/main/resources/assets/ancient_ruins/models/item/glitchitem.json"
         ]
       },
       "path": "~/Mobs"
@@ -457,9 +457,9 @@
       "registry_name": "foundry",
       "metadata": {
         "files": [
+          "src/main/resources/assets/ancient_ruins/models/block/foundry.json",
           "src/main/resources/assets/ancient_ruins/models/item/foundry.json",
           "src/main/resources/assets/ancient_ruins/blockstates/foundry.json",
-          "src/main/resources/assets/ancient_ruins/models/block/foundry.json",
           "src/main/java/net/mcreator/ancientruins/block/FoundryBlock.java"
         ]
       },
@@ -475,9 +475,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/ancient_ruins/models/item/block_portal.json",
-          "src/main/resources/assets/ancient_ruins/blockstates/block_portal.json",
+          "src/main/java/net/mcreator/ancientruins/block/BlockPortalBlock.java",
           "src/main/resources/assets/ancient_ruins/models/block/block_portal.json",
-          "src/main/java/net/mcreator/ancientruins/block/BlockPortalBlock.java"
+          "src/main/resources/assets/ancient_ruins/blockstates/block_portal.json"
         ]
       },
       "path": "~/New_World/Blocks_Portal"
@@ -491,17 +491,17 @@
       "registry_name": "ancient_portals",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/ancientruins/block/AncientPortalsPortalBlock.java",
-          "src/main/resources/data/ancient_ruins/dimension_type/ancient_portals.json",
-          "src/main/java/net/mcreator/ancientruins/world/teleporter/AncientPortalsPortalShape.java",
-          "src/main/resources/assets/ancient_ruins/models/item/ancient_portals.json",
-          "src/main/java/net/mcreator/ancientruins/world/teleporter/AncientPortalsTeleporter.java",
           "src/main/resources/assets/ancient_ruins/models/block/ancient_portals_portal_ew.json",
-          "src/main/resources/assets/ancient_ruins/blockstates/ancient_portals_portal.json",
-          "src/main/resources/assets/ancient_ruins/models/block/ancient_portals_portal_ns.json",
-          "src/main/java/net/mcreator/ancientruins/world/dimension/AncientPortalsDimension.java",
+          "src/main/resources/data/ancient_ruins/dimension/ancient_portals.json",
+          "src/main/resources/data/ancient_ruins/dimension_type/ancient_portals.json",
+          "src/main/java/net/mcreator/ancientruins/block/AncientPortalsPortalBlock.java",
+          "src/main/resources/assets/ancient_ruins/models/item/ancient_portals.json",
           "src/main/java/net/mcreator/ancientruins/item/AncientPortalsItem.java",
-          "src/main/resources/data/ancient_ruins/dimension/ancient_portals.json"
+          "src/main/resources/assets/ancient_ruins/models/block/ancient_portals_portal_ns.json",
+          "src/main/java/net/mcreator/ancientruins/world/teleporter/AncientPortalsTeleporter.java",
+          "src/main/java/net/mcreator/ancientruins/world/dimension/AncientPortalsDimension.java",
+          "src/main/java/net/mcreator/ancientruins/world/teleporter/AncientPortalsPortalShape.java",
+          "src/main/resources/assets/ancient_ruins/blockstates/ancient_portals_portal.json"
         ]
       },
       "path": "~/New_World/Blocks_Portal"
@@ -519,48 +519,6 @@
       "path": "~/gags"
     },
     {
-      "name": "Steelcraft",
-      "type": "recipe",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "steelcraft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/ancient_ruins/recipes/steelcraft.json"
-        ]
-      },
-      "path": "~/Gui_folder"
-    },
-    {
-      "name": "CraftLiterium",
-      "type": "recipe",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "craft_literium",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/ancient_ruins/recipes/craft_literium.json"
-        ]
-      },
-      "path": "~/Gui_folder"
-    },
-    {
-      "name": "SteelCraft2",
-      "type": "recipe",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "steel_craft_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/ancient_ruins/recipes/steel_craft_2.json"
-        ]
-      },
-      "path": "~/Gui_folder"
-    },
-    {
       "name": "FarelOre",
       "type": "block",
       "sortid": 44,
@@ -570,11 +528,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/ancientruins/world/features/ores/FarelOreFeature.java",
-          "src/main/resources/assets/ancient_ruins/models/block/farel_ore.json",
-          "src/main/java/net/mcreator/ancientruins/block/FarelOreBlock.java",
           "src/main/resources/assets/ancient_ruins/models/item/farel_ore.json",
+          "src/main/java/net/mcreator/ancientruins/block/FarelOreBlock.java",
           "src/main/resources/data/ancient_ruins/forge/biome_modifier/farel_ore_biome_modifier.json",
-          "src/main/resources/assets/ancient_ruins/blockstates/farel_ore.json"
+          "src/main/resources/assets/ancient_ruins/blockstates/farel_ore.json",
+          "src/main/resources/assets/ancient_ruins/models/block/farel_ore.json"
         ]
       },
       "path": "~/Nether_Folder/Ores"
@@ -588,8 +546,8 @@
       "registry_name": "farelore_item",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ancient_ruins/models/item/farelore_item.json",
-          "src/main/java/net/mcreator/ancientruins/item/FareloreItemItem.java"
+          "src/main/java/net/mcreator/ancientruins/item/FareloreItemItem.java",
+          "src/main/resources/assets/ancient_ruins/models/item/farelore_item.json"
         ]
       },
       "path": "~/Nether_Folder/Ores"
@@ -665,8 +623,8 @@
       "registry_name": "asoulfragment",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/ancientruins/item/AsoulfragmentItem.java",
-          "src/main/resources/assets/ancient_ruins/models/item/asoulfragment.json"
+          "src/main/resources/assets/ancient_ruins/models/item/asoulfragment.json",
+          "src/main/java/net/mcreator/ancientruins/item/AsoulfragmentItem.java"
         ]
       },
       "path": "~/Legendary_Items"
@@ -727,10 +685,10 @@
       "registry_name": "grassblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ancient_ruins/models/block/grassblock.json",
-          "src/main/java/net/mcreator/ancientruins/block/GrassblockBlock.java",
           "src/main/resources/assets/ancient_ruins/blockstates/grassblock.json",
-          "src/main/resources/assets/ancient_ruins/models/item/grassblock.json"
+          "src/main/resources/assets/ancient_ruins/models/item/grassblock.json",
+          "src/main/java/net/mcreator/ancientruins/block/GrassblockBlock.java",
+          "src/main/resources/assets/ancient_ruins/models/block/grassblock.json"
         ]
       },
       "path": "~/New_World/Blocks"
@@ -773,10 +731,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/ancient_ruins/models/item/steel_armor_leggings.json",
-          "src/main/resources/assets/ancient_ruins/models/item/steel_armor_boots.json",
-          "src/main/java/net/mcreator/ancientruins/item/SteelArmorItem.java",
           "src/main/resources/assets/ancient_ruins/models/item/steel_armor_helmet.json",
-          "src/main/resources/assets/ancient_ruins/models/item/steel_armor_chestplate.json"
+          "src/main/resources/assets/ancient_ruins/models/item/steel_armor_chestplate.json",
+          "src/main/java/net/mcreator/ancientruins/item/SteelArmorItem.java",
+          "src/main/resources/assets/ancient_ruins/models/item/steel_armor_boots.json"
         ]
       },
       "path": "~/Steel_Items"
@@ -833,9 +791,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/ancient_ruins/models/block/stone_ruins.json",
-          "src/main/resources/assets/ancient_ruins/blockstates/stone_ruins.json",
+          "src/main/java/net/mcreator/ancientruins/block/StoneRuinsBlock.java",
           "src/main/resources/assets/ancient_ruins/models/item/stone_ruins.json",
-          "src/main/java/net/mcreator/ancientruins/block/StoneRuinsBlock.java"
+          "src/main/resources/assets/ancient_ruins/blockstates/stone_ruins.json"
         ]
       },
       "path": "~/New_World/Blocks"
@@ -863,9 +821,9 @@
       "registry_name": "shardliter",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/ancientruins/item/model/ShardliterItemModel.java",
           "src/main/java/net/mcreator/ancientruins/item/ShardliterItem.java",
           "src/main/java/net/mcreator/ancientruins/item/renderer/ShardliterItemRenderer.java",
-          "src/main/java/net/mcreator/ancientruins/item/model/ShardliterItemModel.java",
           "src/main/resources/assets/ancient_ruins/models/item/shardliter.json"
         ]
       },
@@ -880,8 +838,8 @@
       "registry_name": "ancient_tunnel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/ancientruins/world/features/AncientTunnelFeature.java",
-          "src/main/resources/data/ancient_ruins/forge/biome_modifier/ancient_tunnel_biome_modifier.json"
+          "src/main/resources/data/ancient_ruins/forge/biome_modifier/ancient_tunnel_biome_modifier.json",
+          "src/main/java/net/mcreator/ancientruins/world/features/AncientTunnelFeature.java"
         ]
       },
       "path": "~/structures"
@@ -927,6 +885,91 @@
         ]
       },
       "path": "~/Dostigs"
+    },
+    {
+      "name": "CraftSteelCode",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_steel_code",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/procedures/CraftSteelCodeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui_folder"
+    },
+    {
+      "name": "GuiCraftsteel",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui_craftsteel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/client/gui/GuiCraftsteelScreen.java",
+          "src/main/java/net/mcreator/ancientruins/world/inventory/GuiCraftsteelMenu.java",
+          "src/main/java/net/mcreator/ancientruins/network/GuiCraftsteelButtonMessage.java"
+        ]
+      },
+      "path": "~/Gui_folder"
+    },
+    {
+      "name": "PKMopengui",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pk_mopengui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientruins/procedures/PKMopenguiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gui_folder"
+    },
+    {
+      "name": "CraftFoundry",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_foundry",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancient_ruins/recipes/craft_foundry.json"
+        ]
+      },
+      "path": "~/foundry"
     }
   ],
   "variable_elements": [],
@@ -959,20 +1002,23 @@
   "language_map": {
     "ru_ru": {
       "item.ancient_ruins.ancient_portals": "поджигатель портала",
-      "item.ancient_ruins.ancient_rat_spawn_egg": "Яйцо Спавна Дрения Крыса",
       "item.ancient_ruins.shardliter": "Осколок",
+      "item.ancient_ruins.ancient_rat_spawn_egg": "Яйцо Спавна Дрения Крыса",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
-      "block.ancient_ruins.blockes": "Центральное Ядро",
       "subtitles.steel_audio": "",
+      "block.ancient_ruins.blockes": "Центральное Ядро",
       "entity.ancient_ruins.ancient_rat": "Древния Крыса",
       "item.ancient_ruins.literium_ore": "Рудный Литериум",
       "advancements.steel.title": "Это стиль!",
       "block.ancient_ruins.literuim_ore": "Блок Руды Литериум",
+      "gui.ancient_ruins.gui_craftsteel.button_craft": "Craft",
+      "gui.ancient_ruins.gui_craftsteel.label_empty": "+",
       "item.ancient_ruins.asoulfragment": "Осколок Души",
       "item.ancient_ruins.ancient_remains": "Древние Останки",
       "item.ancient_ruins.steelitem": "Стальной Слиток",
       "advancements.firstitems.title": "Фрагменты Старого Мира",
       "item.ancient_ruins.steel_armor_chestplate": "Стальной Нагрудник",
+      "gui.ancient_ruins.gui_craftsteel.label_steel_crafter": "Steel Crafter",
       "item.ancient_ruins.literium_axe": "Топор Из Литериума",
       "subtitles.literium_audio": "",
       "advancements.eyegod.descr": "получить глаз существа",
@@ -1011,20 +1057,23 @@
     },
     "en_us": {
       "item.ancient_ruins.ancient_portals": "Portal Igniter",
-      "item.ancient_ruins.shardliter": "Shard",
       "item.ancient_ruins.ancient_rat_spawn_egg": "Ancient Rat Spawn Egg",
+      "item.ancient_ruins.shardliter": "Shard",
       "itemGroup.tabdrievniie_ruiny": "Древние Руины",
-      "block.ancient_ruins.blockes": "Core",
       "subtitles.steel_audio": "",
+      "block.ancient_ruins.blockes": "Core",
       "entity.ancient_ruins.ancient_rat": "Ancient Rat",
       "item.ancient_ruins.literium_ore": "Literium Ore",
       "advancements.steel.title": "That\u0027s the style!",
       "block.ancient_ruins.literuim_ore": "Literuim Ore",
+      "gui.ancient_ruins.gui_craftsteel.button_craft": "Craft",
+      "gui.ancient_ruins.gui_craftsteel.label_empty": "+",
       "item.ancient_ruins.asoulfragment": "soul fragment",
       "item.ancient_ruins.ancient_remains": "Ancient Remains",
       "item.ancient_ruins.steelitem": "Steel ingot",
       "advancements.firstitems.title": "a fragment of the old world",
       "item.ancient_ruins.steel_armor_chestplate": "Steel Chestplate",
+      "gui.ancient_ruins.gui_craftsteel.label_steel_crafter": "Steel Crafter",
       "item.ancient_ruins.literium_axe": "Literium Axe",
       "subtitles.literium_audio": "",
       "advancements.eyegod.descr": "Give Eye Entity",
